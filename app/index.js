@@ -11,6 +11,7 @@ const path = require("path");
  */
 const app = express();
 const port = process.env.PORT || "8000";
+require('dotenv').config();
 
 /**
  *  App Configuration
@@ -24,7 +25,7 @@ app.get("/", (req, res) => {
   res.status(200).send("Hi team this is our v0 project for gLog");
 });
 app.get("/index", (req, res) => {
-  res.status(200).sendFile("/Users/devasou/code/deva-sou/glog-project/app/views/index.html");
+  res.status(200).sendFile(process.env.FILE_PATH);
 });
 /**
  * Server Activation

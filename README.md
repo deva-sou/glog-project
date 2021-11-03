@@ -7,6 +7,7 @@ npm `npm --v`
 node `node --version`  
 
 # run the app
+`cd app` (if needed)  
 `npm run dev`  
 
 # see the app

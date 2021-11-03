@@ -1,7 +1,5 @@
-## glog-project
-
-## Message for the dev team
-# install dependencies
+# glog-project
+## install dependencies
 check if you have those library otherwise install them:  
 npm `npm --v`  
 node `node --version`  

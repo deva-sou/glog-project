@@ -4,7 +4,7 @@ check if you have those library otherwise install them:
 npm `npm --v`  
 node `node --version`  
 
-# run the app
+## run the app
 `cd app` (if needed)  
 `npm run dev`  
 

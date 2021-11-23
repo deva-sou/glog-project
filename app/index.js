@@ -6,30 +6,26 @@
 const express = require("express");
 const path = require("path");
 
-/**
- * App Variables
- */
+// /**
+//  * App Variables
+//  */
 const app = express();
 const port = process.env.PORT || "8000";
 require('dotenv').config();
 
-/**
- *  App Configuration
- */
 
-/**
- * Routes Definitions
- */
+// /**
+//  *  App Configuration
+//  */
 
-app.get("/", (req, res) => {
-  res.status(200).send("Hi team this is our v0 project for gLog");
-});
-app.get("/index", (req, res) => {
-  res.status(200).sendFile(process.env.FILE_PATH);
-});
-/**
- * Server Activation
- */
+// /**
+//  * Routes Definitions
+//  */
+
+// /**
+//  * Server Activation
+//  */
+app.use(express.static(path.join(__dirname, '/')));
 
 app.listen(port, () => {
   console.log(`Listening to requests on http://localhost:${port}`);

@@ -25,7 +25,7 @@ require('dotenv').config();
 // /**
 //  * Server Activation
 //  */
-app.use(express.static(path.join(__dirname, '/')));
+app.use(express.static(path.join(__dirname, 'app')));
 
 app.listen(port, () => {
   console.log(`Listening to requests on http://localhost:${port}`);

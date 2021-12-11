@@ -8,14 +8,14 @@
 
 const drawGraph = (filePath) => {
     fetch(filePath)
-            .then((resp) => resp.json())
-            .then((_data) => {
-                // Data available here
-                const network = processing(_data); // prepare data
-                console.log("network\n", network);
-                graph(network); // construct visualization
-            });
+        .then((resp) => resp.json())
+        .then((_data) => {
+            // Data available here
+            const network = processing(_data); // prepare data
+            console.log("network\n", network);
+            graph(network); // construct visualization
+        });
 }
 
-drawGraph("scripts/newVersion/testfile.json");
+drawGraph("scripts/newVersion/ff73.json");
 

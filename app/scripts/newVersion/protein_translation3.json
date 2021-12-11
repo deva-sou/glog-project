@@ -1,0 +1,1306 @@
+{
+  "nodes": [
+    {
+      "id": "9683033",
+      "name": "nucleotide-sugar [endoplasmic reticulum lumen]",
+      "id_compartment": "compartment_17957"
+    },
+    {
+      "id": "9639443",
+      "name": "S-adenosyl-L-homocysteine [cytosol]",
+      "id_compartment": "compartment_70101"
+    },
+    {
+      "id": "9729277",
+      "name": "p-8S,2T-N [cytosol]",
+      "id_compartment": "compartment_70101"
+    },
+    {
+      "id": "8943136",
+      "name": "Ub [endoplasmic reticulum membrane]",
+      "id_compartment": "compartment_12045"
+    },
+    {
+      "id": "9694781",
+      "name": "O-glycosyl 3a tetramer [endocytic vesicle membrane]",
+      "id_compartment": "compartment_24337"
+    },
+    {
+      "id": "9697195",
+      "name": "di-antennary N-glycan-PALM-Spike trimer [endoplasmic reticulum-Golgi intermediate compartment]",
+      "id_compartment": "compartment_190626"
+    },
+    {
+      "id": "9729324",
+      "name": "p-S188,206-N [cytosol]",
+      "id_compartment": "compartment_70101"
+    },
+    {
+      "id": "9694716",
+      "name": "3a [endoplasmic reticulum-Golgi intermediate compartment]",
+      "id_compartment": "compartment_190626"
+    },
+    {
+      "id": "9685933",
+      "name": "Host Derived Lipid Bilayer Membrane [plasma membrane]",
+      "id_compartment": "compartment_876"
+    },
+    {
+      "id": "9694456",
+      "name": "m7G(5')pppAm-capped,polyadenylated mRNA5 [cytosol]",
+      "id_compartment": "compartment_70101"
+    },
+    {
+      "id": "9683078",
+      "name": "UDP [endoplasmic reticulum-Golgi intermediate compartment]",
+      "id_compartment": "compartment_190626"
+    },
+    {
+      "id": "9694300",
+      "name": "N [cytosol]",
+      "id_compartment": "compartment_70101"
+    },
+    {
+      "id": "9697197",
+      "name": "fully glycosylated Spike trimer [endoplasmic reticulum-Golgi intermediate compartment]",
+      "id_compartment": "compartment_190626"
+    },
+    {
+      "id": "9729340",
+      "name": "SUMO1-K62-ADPr-p-11S,2T-metR95,177-N [cytosol]",
+      "id_compartment": "compartment_70101"
+    },
+    {
+      "id": "156540",
+      "name": "H+ [endoplasmic reticulum lumen]",
+      "id_compartment": "compartment_17957"
+    },
+    {
+      "id": "975896",
+      "name": "MGAT5 [Golgi membrane]",
+      "id_compartment": "compartment_20699"
+    },
+    {
+      "id": "9697194",
+      "name": "tri-antennary N-glycan-PALM-Spike trimer [endoplasmic reticulum-Golgi intermediate compartment]",
+      "id_compartment": "compartment_190626"
+    },
+    {
+      "id": "9694503",
+      "name": "m7G(5')pppAm-capped,polyadenylated mRNA2 [cytosol]",
+      "id_compartment": "compartment_70101"
+    },
+    {
+      "id": "9694754",
+      "name": "N-glycan E [endoplasmic reticulum lumen]",
+      "id_compartment": "compartment_17957"
+    },
+    {
+      "id": "9694464",
+      "name": "N tetramer [plasma membrane]",
+      "id_compartment": "compartment_876"
+    },
+    {
+      "id": "9694386",
+      "name": "O-glycosyl 3a [endoplasmic reticulum-Golgi intermediate compartment membrane]",
+      "id_compartment": "compartment_6791047"
+    },
+    {
+      "id": "70106",
+      "name": "H+ [cytosol]",
+      "id_compartment": "compartment_70101"
+    },
+    {
+      "id": "9686842",
+      "name": "ER-alpha glucosidases:ER-alpha glucosidase inhibitors [endoplasmic reticulum lumen]",
+      "id_compartment": "compartment_17957"
+    },
+    {
+      "id": "29370",
+      "name": "ADP [cytosol]",
+      "id_compartment": "compartment_70101"
+    },
+    {
+      "id": "9696892",
+      "name": "Man(9) N-glycan unfolded Spike [endoplasmic reticulum lumen]",
+      "id_compartment": "compartment_17957"
+    },
+    {
+      "id": "964750",
+      "name": "MGAT1 [endoplasmic reticulum-Golgi intermediate compartment membrane]",
+      "id_compartment": "compartment_6791047"
+    },
+    {
+      "id": "9694513",
+      "name": "m7G(5')pppAm-capped,polyadenylated-mRNA9 [cytosol]",
+      "id_compartment": "compartment_70101"
+    },
+    {
+      "id": "9729308",
+      "name": "p-11S,2T-metR95,177-N [cytosol]",
+      "id_compartment": "compartment_70101"
+    },
+    {
+      "id": "975913",
+      "name": "MGAT4s [Golgi membrane]",
+      "id_compartment": "compartment_20699"
+    },
+    {
+      "id": "9699093",
+      "name": "CMP-Neu5Ac [endoplasmic reticulum-Golgi intermediate compartment]",
+      "id_compartment": "compartment_190626"
+    },
+    {
+      "id": "9694356",
+      "name": "N [plasma membrane]",
+      "id_compartment": "compartment_876"
+    },
+    {
+      "id": "4656922",
+      "name": "SUMO1:C93-UBE2I [cytosol]",
+      "id_compartment": "compartment_70101"
+    },
+    {
+      "id": "9696875",
+      "name": "high-mannose N-glycan unfolded Spike [endoplasmic reticulum lumen]",
+      "id_compartment": "compartment_17957"
+    },
+    {
+      "id": "4655342",
+      "name": "UBE2I [cytosol]",
+      "id_compartment": "compartment_70101"
+    },
+    {
+      "id": "9683736",
+      "name": "palmitoyl-CoA [endoplasmic reticulum lumen]",
+      "id_compartment": "compartment_17957"
+    },
+    {
+      "id": "9694446",
+      "name": "N-glycan M [endoplasmic reticulum-Golgi intermediate compartment membrane]",
+      "id_compartment": "compartment_6791047"
+    },
+    {
+      "id": "449651",
+      "name": "(Glc)3 (GlcNAc)2 (Man)9 (PP-Dol)1 [integral component of lumenal side of endoplasmic reticulum membrane]",
+      "id_compartment": "compartment_453088"
+    },
+    {
+      "id": "162743",
+      "name": "CoA-SH [endoplasmic reticulum lumen]",
+      "id_compartment": "compartment_17957"
+    },
+    {
+      "id": "198358",
+      "name": "GSK3 [cytosol]",
+      "id_compartment": "compartment_70101"
+    },
+    {
+      "id": "9699094",
+      "name": "CMP [endoplasmic reticulum-Golgi intermediate compartment]",
+      "id_compartment": "compartment_190626"
+    },
+    {
+      "id": "9694279",
+      "name": "nascent M [endoplasmic reticulum lumen]",
+      "id_compartment": "compartment_17957"
+    },
+    {
+      "id": "9694423",
+      "name": "Ub-3xPalmC-E [endoplasmic reticulum lumen]",
+      "id_compartment": "compartment_17957"
+    },
+    {
+      "id": "9683046",
+      "name": "nucleoside 5'-diphosphate(3−) [endoplasmic reticulum lumen]",
+      "id_compartment": "compartment_17957"
+    },
+    {
+      "id": "9694305",
+      "name": "3xPalmC-E [endoplasmic reticulum lumen]",
+      "id_compartment": "compartment_17957"
+    },
+    {
+      "id": "9694796",
+      "name": "nascent Spike [endoplasmic reticulum lumen]",
+      "id_compartment": "compartment_17957"
+    },
+    {
+      "id": "9696917",
+      "name": "high-mannose N-glycan-PALM-Spike [endoplasmic reticulum lumen]",
+      "id_compartment": "compartment_17957"
+    },
+    {
+      "id": "9694475",
+      "name": "3a:membranous structure [extracellular region]",
+      "id_compartment": "compartment_984"
+    },
+    {
+      "id": "9694702",
+      "name": "N tetramer [cytosol]",
+      "id_compartment": "compartment_70101"
+    },
+    {
+      "id": "6782581",
+      "name": "MAN1B1,EDEM2 [endoplasmic reticulum quality control compartment]",
+      "id_compartment": "compartment_927893"
+    },
+    {
+      "id": "532516",
+      "name": "OST complex [endoplasmic reticulum membrane]",
+      "id_compartment": "compartment_12045"
+    },
+    {
+      "id": "9694439",
+      "name": "M [endoplasmic reticulum-Golgi intermediate compartment membrane]",
+      "id_compartment": "compartment_6791047"
+    },
+    {
+      "id": "1028782",
+      "name": "FUT8 [Golgi membrane]",
+      "id_compartment": "compartment_20699"
+    },
+    {
+      "id": "9682906",
+      "name": "GALNT1 [endoplasmic reticulum-Golgi intermediate compartment membrane]",
+      "id_compartment": "compartment_6791047"
+    },
+    {
+      "id": "9683087",
+      "name": "beta-D-glucose [endoplasmic reticulum lumen]",
+      "id_compartment": "compartment_17957"
+    },
+    {
+      "id": "9683025",
+      "name": "UDP-GalNAc [endoplasmic reticulum-Golgi intermediate compartment]",
+      "id_compartment": "compartment_190626"
+    },
+    {
+      "id": "29360",
+      "name": "NAD+ [cytosol]",
+      "id_compartment": "compartment_70101"
+    },
+    {
+      "id": "195263",
+      "name": "CSNK1A1 [cytosol]",
+      "id_compartment": "compartment_70101"
+    },
+    {
+      "id": "113592",
+      "name": "ATP [cytosol]",
+      "id_compartment": "compartment_70101"
+    },
+    {
+      "id": "9694312",
+      "name": "nascent E [endoplasmic reticulum lumen]",
+      "id_compartment": "compartment_17957"
+    },
+    {
+      "id": "9694325",
+      "name": "m7G(5')pppAm-capped,polyadenylated mRNA3 [cytosol]",
+      "id_compartment": "compartment_70101"
+    },
+    {
+      "id": "9694658",
+      "name": "GalNAc-O-3a [endoplasmic reticulum-Golgi intermediate compartment]",
+      "id_compartment": "compartment_190626"
+    },
+    {
+      "id": "9729335",
+      "name": "p-8S-N [cytosol]",
+      "id_compartment": "compartment_70101"
+    },
+    {
+      "id": "9683042",
+      "name": "sialyltransferases [Golgi membrane]",
+      "id_compartment": "compartment_20699"
+    },
+    {
+      "id": "9694622",
+      "name": "m7G(5')pppAm-capped,polyadenylated mRNA4 [cytosol]",
+      "id_compartment": "compartment_70101"
+    },
+    {
+      "id": "9729275",
+      "name": "ADPr-p-11S,2T-metR95,177-N [cytosol]",
+      "id_compartment": "compartment_70101"
+    },
+    {
+      "id": "9686811",
+      "name": "ER-alpha-glucosidase inhibitors [endoplasmic reticulum lumen]",
+      "id_compartment": "compartment_17957"
+    },
+    {
+      "id": "9632173",
+      "name": "PRMT1 [cytosol]",
+      "id_compartment": "compartment_70101"
+    },
+    {
+      "id": "9696883",
+      "name": "high-mannose N-glycan-PALM-Spike trimer [endoplasmic reticulum lumen]",
+      "id_compartment": "compartment_17957"
+    },
+    {
+      "id": "2997551",
+      "name": "GSK3B [cytosol]",
+      "id_compartment": "compartment_70101"
+    },
+    {
+      "id": "197277",
+      "name": "NAM [cytosol]",
+      "id_compartment": "compartment_70101"
+    },
+    {
+      "id": "9694598",
+      "name": "O-glycosyl 3a tetramer [endoplasmic reticulum-Golgi intermediate compartment membrane]",
+      "id_compartment": "compartment_6791047"
+    },
+    {
+      "id": "9683057",
+      "name": "H+ [endoplasmic reticulum-Golgi intermediate compartment]",
+      "id_compartment": "compartment_190626"
+    },
+    {
+      "id": "8938273",
+      "name": "PARPs [cytosol]",
+      "id_compartment": "compartment_70101"
+    },
+    {
+      "id": "9694408",
+      "name": "Ub-3xPalmC-E pentamer [Golgi membrane]",
+      "id_compartment": "compartment_20699"
+    },
+    {
+      "id": "9682983",
+      "name": "ER alpha-glucosidases [endoplasmic reticulum lumen]",
+      "id_compartment": "compartment_17957"
+    },
+    {
+      "id": "9687663",
+      "name": "GSK3B:GSKi [cytosol]",
+      "id_compartment": "compartment_70101"
+    },
+    {
+      "id": "532676",
+      "name": "MOGS [endoplasmic reticulum membrane]",
+      "id_compartment": "compartment_12045"
+    },
+    {
+      "id": "113519",
+      "name": "H2O [endoplasmic reticulum lumen]",
+      "id_compartment": "compartment_17957"
+    },
+    {
+      "id": "975830",
+      "name": "MGAT2 [Golgi membrane]",
+      "id_compartment": "compartment_20699"
+    },
+    {
+      "id": "9696901",
+      "name": "high-mannose N-glycan-PALM-Spike trimer [endoplasmic reticulum-Golgi intermediate compartment]",
+      "id_compartment": "compartment_190626"
+    },
+    {
+      "id": "9694433",
+      "name": "O-glycosyl 3a [plasma membrane]",
+      "id_compartment": "compartment_876"
+    },
+    {
+      "id": "449311",
+      "name": "DOLP [integral component of lumenal side of endoplasmic reticulum membrane]",
+      "id_compartment": "compartment_453088"
+    },
+    {
+      "id": "9694573",
+      "name": "N tetramer [endoplasmic reticulum-Golgi intermediate compartment membrane]",
+      "id_compartment": "compartment_6791047"
+    },
+    {
+      "id": "9694459",
+      "name": "14-sugar N-glycan unfolded Spike [endoplasmic reticulum lumen]",
+      "id_compartment": "compartment_17957"
+    },
+    {
+      "id": "9694584",
+      "name": "3a [endoplasmic reticulum lumen]",
+      "id_compartment": "compartment_17957"
+    },
+    {
+      "id": "195906",
+      "name": "CANX [endoplasmic reticulum lumen]",
+      "id_compartment": "compartment_17957"
+    },
+    {
+      "id": "9694306",
+      "name": "O-glycosyl 3a tetramer [plasma membrane]",
+      "id_compartment": "compartment_876"
+    },
+    {
+      "id": "9694787",
+      "name": "Ub-3xPalmC-E pentamer [endoplasmic reticulum membrane]",
+      "id_compartment": "compartment_12045"
+    },
+    {
+      "id": "9694659",
+      "name": "N tetramer [nucleolus]",
+      "id_compartment": "compartment_350"
+    },
+    {
+      "id": "9729312",
+      "name": "SRPK1/2 [cytosol]",
+      "id_compartment": "compartment_70101"
+    },
+    {
+      "id": "9639461",
+      "name": "S-adenosyl-L-methionine [cytosol]",
+      "id_compartment": "compartment_70101"
+    },
+    {
+      "id": "9694684",
+      "name": "N-glycan M [endoplasmic reticulum membrane]",
+      "id_compartment": "compartment_12045"
+    },
+    {
+      "id": "975823",
+      "name": "MAN2A1 [Golgi membrane]",
+      "id_compartment": "compartment_20699"
+    },
+    {
+      "id": "9696880",
+      "name": "high-mannose N-glycan folded Spike [endoplasmic reticulum lumen]",
+      "id_compartment": "compartment_17957"
+    },
+    {
+      "id": "9729264",
+      "name": "p-11S,2T-N [cytosol]",
+      "id_compartment": "compartment_70101"
+    },
+    {
+      "id": "9687688",
+      "name": "GSKi [cytosol]",
+      "id_compartment": "compartment_70101"
+    }
+  ],
+  "edges": [
+    {
+      "id": "reaction_9694467",
+      "reaction_name": "Spike protein forms a homotrimer",
+      "id_compartment": "compartment_17957",
+      "source": "9696917",
+      "target": "9696883"
+    },
+    {
+      "id": "reaction_9694780",
+      "reaction_name": "Spike trimer translocates to ERGIC",
+      "id_compartment": "compartment_12045",
+      "source": "9696883",
+      "target": "9696901"
+    },
+    {
+      "id": "reaction_9729330",
+      "reaction_name": "SRPK1/2 phosphorylates nucleoprotein",
+      "id_compartment": "compartment_70101",
+      "source": "9694300",
+      "target": "29370"
+    },
+    {
+      "id": "reaction_9729330",
+      "reaction_name": "SRPK1/2 phosphorylates nucleoprotein",
+      "id_compartment": "compartment_70101",
+      "source": "9694300",
+      "target": "9729324"
+    },
+    {
+      "id": "reaction_9729330",
+      "reaction_name": "SRPK1/2 phosphorylates nucleoprotein",
+      "id_compartment": "compartment_70101",
+      "source": "9694300",
+      "target": "70106"
+    },
+    {
+      "id": "reaction_9729330",
+      "reaction_name": "SRPK1/2 phosphorylates nucleoprotein",
+      "id_compartment": "compartment_70101",
+      "source": "113592",
+      "target": "29370"
+    },
+    {
+      "id": "reaction_9729330",
+      "reaction_name": "SRPK1/2 phosphorylates nucleoprotein",
+      "id_compartment": "compartment_70101",
+      "source": "113592",
+      "target": "9729324"
+    },
+    {
+      "id": "reaction_9729330",
+      "reaction_name": "SRPK1/2 phosphorylates nucleoprotein",
+      "id_compartment": "compartment_70101",
+      "source": "113592",
+      "target": "70106"
+    },
+    {
+      "id": "reaction_9694280",
+      "reaction_name": "mRNA4 is translated to protein E",
+      "id_compartment": "compartment_17957",
+      "source": "9694622",
+      "target": "9694312"
+    },
+    {
+      "id": "reaction_9694568",
+      "reaction_name": "Nucleoprotein translocates to the ERGIC outer membrane",
+      "id_compartment": "compartment_70101",
+      "source": "9694702",
+      "target": "9694573"
+    },
+    {
+      "id": "reaction_9694790",
+      "reaction_name": "E protein gets N-glycosylated",
+      "id_compartment": "compartment_17957",
+      "source": "9683033",
+      "target": "156540"
+    },
+    {
+      "id": "reaction_9694790",
+      "reaction_name": "E protein gets N-glycosylated",
+      "id_compartment": "compartment_17957",
+      "source": "9683033",
+      "target": "9683046"
+    },
+    {
+      "id": "reaction_9694790",
+      "reaction_name": "E protein gets N-glycosylated",
+      "id_compartment": "compartment_17957",
+      "source": "9683033",
+      "target": "9694754"
+    },
+    {
+      "id": "reaction_9694790",
+      "reaction_name": "E protein gets N-glycosylated",
+      "id_compartment": "compartment_17957",
+      "source": "9694312",
+      "target": "156540"
+    },
+    {
+      "id": "reaction_9694790",
+      "reaction_name": "E protein gets N-glycosylated",
+      "id_compartment": "compartment_17957",
+      "source": "9694312",
+      "target": "9683046"
+    },
+    {
+      "id": "reaction_9694790",
+      "reaction_name": "E protein gets N-glycosylated",
+      "id_compartment": "compartment_17957",
+      "source": "9694312",
+      "target": "9694754"
+    },
+    {
+      "id": "reaction_9694572",
+      "reaction_name": "3a localizes to the cell membrane",
+      "id_compartment": "compartment_190626",
+      "source": "9694598",
+      "target": "9694433"
+    },
+    {
+      "id": "reaction_9694364",
+      "reaction_name": "N-glycan glucose trimming of Spike",
+      "id_compartment": "compartment_17957",
+      "source": "113519",
+      "target": "9696892"
+    },
+    {
+      "id": "reaction_9694364",
+      "reaction_name": "N-glycan glucose trimming of Spike",
+      "id_compartment": "compartment_17957",
+      "source": "113519",
+      "target": "9683087"
+    },
+    {
+      "id": "reaction_9694364",
+      "reaction_name": "N-glycan glucose trimming of Spike",
+      "id_compartment": "compartment_17957",
+      "source": "9694459",
+      "target": "9696892"
+    },
+    {
+      "id": "reaction_9694364",
+      "reaction_name": "N-glycan glucose trimming of Spike",
+      "id_compartment": "compartment_17957",
+      "source": "9694459",
+      "target": "9683087"
+    },
+    {
+      "id": "reaction_9694345",
+      "reaction_name": "Nucleoprotein translocates to the nucleolus",
+      "id_compartment": "compartment_70101",
+      "source": "9694702",
+      "target": "9694659"
+    },
+    {
+      "id": "reaction_9694727",
+      "reaction_name": "Endocytosis of protein 3a",
+      "id_compartment": "compartment_876",
+      "source": "9694306",
+      "target": "9694781"
+    },
+    {
+      "id": "reaction_9694555",
+      "reaction_name": "Protein M localizes to the Golgi membrane",
+      "id_compartment": "compartment_17957",
+      "source": "9694279",
+      "target": "9694439"
+    },
+    {
+      "id": "reaction_9694452",
+      "reaction_name": "Protein E forms a homopentamer",
+      "id_compartment": "compartment_17957",
+      "source": "9694423",
+      "target": "9694787"
+    },
+    {
+      "id": "reaction_9694529",
+      "reaction_name": "Ubiquination of protein E",
+      "id_compartment": "compartment_17957",
+      "source": "8943136",
+      "target": "9694423"
+    },
+    {
+      "id": "reaction_9694529",
+      "reaction_name": "Ubiquination of protein E",
+      "id_compartment": "compartment_17957",
+      "source": "9694305",
+      "target": "9694423"
+    },
+    {
+      "id": "reaction_9729307",
+      "reaction_name": "Nucleoprotein is SUMOylated",
+      "id_compartment": "compartment_70101",
+      "source": "9729275",
+      "target": "9729340"
+    },
+    {
+      "id": "reaction_9729307",
+      "reaction_name": "Nucleoprotein is SUMOylated",
+      "id_compartment": "compartment_70101",
+      "source": "9729275",
+      "target": "4655342"
+    },
+    {
+      "id": "reaction_9729307",
+      "reaction_name": "Nucleoprotein is SUMOylated",
+      "id_compartment": "compartment_70101",
+      "source": "4656922",
+      "target": "9729340"
+    },
+    {
+      "id": "reaction_9729307",
+      "reaction_name": "Nucleoprotein is SUMOylated",
+      "id_compartment": "compartment_70101",
+      "source": "4656922",
+      "target": "4655342"
+    },
+    {
+      "id": "reaction_9696807",
+      "reaction_name": "N-glycan mannose trimming of Spike",
+      "id_compartment": "compartment_17957",
+      "source": "9696892",
+      "target": "9696875"
+    },
+    {
+      "id": "reaction_9694575",
+      "reaction_name": "Nucleoprotein translocates to the plasma membrane",
+      "id_compartment": "compartment_70101",
+      "source": "9694702",
+      "target": "9694464"
+    },
+    {
+      "id": "reaction_9694438",
+      "reaction_name": "GalNAc is transferred onto 3a",
+      "id_compartment": "compartment_190626",
+      "source": "9683025",
+      "target": "9683057"
+    },
+    {
+      "id": "reaction_9694438",
+      "reaction_name": "GalNAc is transferred onto 3a",
+      "id_compartment": "compartment_190626",
+      "source": "9683025",
+      "target": "9694658"
+    },
+    {
+      "id": "reaction_9694438",
+      "reaction_name": "GalNAc is transferred onto 3a",
+      "id_compartment": "compartment_190626",
+      "source": "9683025",
+      "target": "9683078"
+    },
+    {
+      "id": "reaction_9694438",
+      "reaction_name": "GalNAc is transferred onto 3a",
+      "id_compartment": "compartment_190626",
+      "source": "9694716",
+      "target": "9683057"
+    },
+    {
+      "id": "reaction_9694438",
+      "reaction_name": "GalNAc is transferred onto 3a",
+      "id_compartment": "compartment_190626",
+      "source": "9694716",
+      "target": "9694658"
+    },
+    {
+      "id": "reaction_9694438",
+      "reaction_name": "GalNAc is transferred onto 3a",
+      "id_compartment": "compartment_190626",
+      "source": "9694716",
+      "target": "9683078"
+    },
+    {
+      "id": "reaction_9694370",
+      "reaction_name": "mRNA9a is translated to Nucleoprotein",
+      "id_compartment": "compartment_70101",
+      "source": "9694513",
+      "target": "9694300"
+    },
+    {
+      "id": "reaction_9694662",
+      "reaction_name": "Protein 3a forms a homotetramer",
+      "id_compartment": "compartment_6791047",
+      "source": "9694386",
+      "target": "9694598"
+    },
+    {
+      "id": "reaction_9694308",
+      "reaction_name": "3a is externalized together with membrane structures",
+      "id_compartment": "compartment_876",
+      "source": "9694306",
+      "target": "9694475"
+    },
+    {
+      "id": "reaction_9694308",
+      "reaction_name": "3a is externalized together with membrane structures",
+      "id_compartment": "compartment_876",
+      "source": "9685933",
+      "target": "9694475"
+    },
+    {
+      "id": "reaction_9697018",
+      "reaction_name": "Addition of sialic acids on some Spike glycosyl sidechains",
+      "id_compartment": "compartment_190626",
+      "source": "9697194",
+      "target": "9697197"
+    },
+    {
+      "id": "reaction_9729283",
+      "reaction_name": "Nucleoprotein is methylated by PRMT1",
+      "id_compartment": "compartment_70101",
+      "source": "9639461",
+      "target": "9639443"
+    },
+    {
+      "id": "reaction_9729283",
+      "reaction_name": "Nucleoprotein is methylated by PRMT1",
+      "id_compartment": "compartment_70101",
+      "source": "9639461",
+      "target": "9729308"
+    },
+    {
+      "id": "reaction_9729283",
+      "reaction_name": "Nucleoprotein is methylated by PRMT1",
+      "id_compartment": "compartment_70101",
+      "source": "9639461",
+      "target": "70106"
+    },
+    {
+      "id": "reaction_9729283",
+      "reaction_name": "Nucleoprotein is methylated by PRMT1",
+      "id_compartment": "compartment_70101",
+      "source": "9729264",
+      "target": "9639443"
+    },
+    {
+      "id": "reaction_9729283",
+      "reaction_name": "Nucleoprotein is methylated by PRMT1",
+      "id_compartment": "compartment_70101",
+      "source": "9729264",
+      "target": "9729308"
+    },
+    {
+      "id": "reaction_9729283",
+      "reaction_name": "Nucleoprotein is methylated by PRMT1",
+      "id_compartment": "compartment_70101",
+      "source": "9729264",
+      "target": "70106"
+    },
+    {
+      "id": "reaction_9694656",
+      "reaction_name": "Spike trimer glycoside chains are extended",
+      "id_compartment": "compartment_190626",
+      "source": "9696901",
+      "target": "9697195"
+    },
+    {
+      "id": "reaction_9694447",
+      "reaction_name": "mRNA2 is translated to Spike",
+      "id_compartment": "compartment_17957",
+      "source": "9694503",
+      "target": "9694796"
+    },
+    {
+      "id": "reaction_9694794",
+      "reaction_name": "mRNA3 is translated to protein 3a",
+      "id_compartment": "compartment_17957",
+      "source": "9694325",
+      "target": "9694584"
+    },
+    {
+      "id": "reaction_9729260",
+      "reaction_name": "GSK3 phosphorylates nucleoprotein",
+      "id_compartment": "compartment_70101",
+      "source": "113592",
+      "target": "29370"
+    },
+    {
+      "id": "reaction_9729260",
+      "reaction_name": "GSK3 phosphorylates nucleoprotein",
+      "id_compartment": "compartment_70101",
+      "source": "113592",
+      "target": "9729335"
+    },
+    {
+      "id": "reaction_9729260",
+      "reaction_name": "GSK3 phosphorylates nucleoprotein",
+      "id_compartment": "compartment_70101",
+      "source": "113592",
+      "target": "70106"
+    },
+    {
+      "id": "reaction_9729260",
+      "reaction_name": "GSK3 phosphorylates nucleoprotein",
+      "id_compartment": "compartment_70101",
+      "source": "9729324",
+      "target": "29370"
+    },
+    {
+      "id": "reaction_9729260",
+      "reaction_name": "GSK3 phosphorylates nucleoprotein",
+      "id_compartment": "compartment_70101",
+      "source": "9729324",
+      "target": "9729335"
+    },
+    {
+      "id": "reaction_9729260",
+      "reaction_name": "GSK3 phosphorylates nucleoprotein",
+      "id_compartment": "compartment_70101",
+      "source": "9729324",
+      "target": "70106"
+    },
+    {
+      "id": "reaction_9729318",
+      "reaction_name": "CSNK1A1 phosphorylates nucleoprotein",
+      "id_compartment": "compartment_70101",
+      "source": "113592",
+      "target": "9729277"
+    },
+    {
+      "id": "reaction_9729318",
+      "reaction_name": "CSNK1A1 phosphorylates nucleoprotein",
+      "id_compartment": "compartment_70101",
+      "source": "113592",
+      "target": "29370"
+    },
+    {
+      "id": "reaction_9729318",
+      "reaction_name": "CSNK1A1 phosphorylates nucleoprotein",
+      "id_compartment": "compartment_70101",
+      "source": "113592",
+      "target": "70106"
+    },
+    {
+      "id": "reaction_9729318",
+      "reaction_name": "CSNK1A1 phosphorylates nucleoprotein",
+      "id_compartment": "compartment_70101",
+      "source": "9729335",
+      "target": "9729277"
+    },
+    {
+      "id": "reaction_9729318",
+      "reaction_name": "CSNK1A1 phosphorylates nucleoprotein",
+      "id_compartment": "compartment_70101",
+      "source": "9729335",
+      "target": "29370"
+    },
+    {
+      "id": "reaction_9729318",
+      "reaction_name": "CSNK1A1 phosphorylates nucleoprotein",
+      "id_compartment": "compartment_70101",
+      "source": "9729335",
+      "target": "70106"
+    },
+    {
+      "id": "reaction_9696980",
+      "reaction_name": "Spike trimer glycoside chains get additional branches",
+      "id_compartment": "compartment_190626",
+      "source": "9697195",
+      "target": "9697194"
+    },
+    {
+      "id": "reaction_9694793",
+      "reaction_name": "Spike protein gets N-glycosylated",
+      "id_compartment": "compartment_17957",
+      "source": "9694796",
+      "target": "449311"
+    },
+    {
+      "id": "reaction_9694793",
+      "reaction_name": "Spike protein gets N-glycosylated",
+      "id_compartment": "compartment_17957",
+      "source": "9694796",
+      "target": "9694459"
+    },
+    {
+      "id": "reaction_9694793",
+      "reaction_name": "Spike protein gets N-glycosylated",
+      "id_compartment": "compartment_17957",
+      "source": "449651",
+      "target": "449311"
+    },
+    {
+      "id": "reaction_9694793",
+      "reaction_name": "Spike protein gets N-glycosylated",
+      "id_compartment": "compartment_17957",
+      "source": "449651",
+      "target": "9694459"
+    },
+    {
+      "id": "reaction_9729300",
+      "reaction_name": "Unknown kinase phosphorylates nucleoprotein",
+      "id_compartment": "compartment_70101",
+      "source": "9729277",
+      "target": "29370"
+    },
+    {
+      "id": "reaction_9729300",
+      "reaction_name": "Unknown kinase phosphorylates nucleoprotein",
+      "id_compartment": "compartment_70101",
+      "source": "9729277",
+      "target": "9729264"
+    },
+    {
+      "id": "reaction_9729300",
+      "reaction_name": "Unknown kinase phosphorylates nucleoprotein",
+      "id_compartment": "compartment_70101",
+      "source": "9729277",
+      "target": "70106"
+    },
+    {
+      "id": "reaction_9729300",
+      "reaction_name": "Unknown kinase phosphorylates nucleoprotein",
+      "id_compartment": "compartment_70101",
+      "source": "113592",
+      "target": "29370"
+    },
+    {
+      "id": "reaction_9729300",
+      "reaction_name": "Unknown kinase phosphorylates nucleoprotein",
+      "id_compartment": "compartment_70101",
+      "source": "113592",
+      "target": "9729264"
+    },
+    {
+      "id": "reaction_9729300",
+      "reaction_name": "Unknown kinase phosphorylates nucleoprotein",
+      "id_compartment": "compartment_70101",
+      "source": "113592",
+      "target": "70106"
+    },
+    {
+      "id": "reaction_9729279",
+      "reaction_name": "Nucleoprotein is ADP-ribosylated",
+      "id_compartment": "compartment_70101",
+      "source": "29360",
+      "target": "197277"
+    },
+    {
+      "id": "reaction_9729279",
+      "reaction_name": "Nucleoprotein is ADP-ribosylated",
+      "id_compartment": "compartment_70101",
+      "source": "29360",
+      "target": "9729275"
+    },
+    {
+      "id": "reaction_9729279",
+      "reaction_name": "Nucleoprotein is ADP-ribosylated",
+      "id_compartment": "compartment_70101",
+      "source": "29360",
+      "target": "70106"
+    },
+    {
+      "id": "reaction_9729279",
+      "reaction_name": "Nucleoprotein is ADP-ribosylated",
+      "id_compartment": "compartment_70101",
+      "source": "9729308",
+      "target": "197277"
+    },
+    {
+      "id": "reaction_9729279",
+      "reaction_name": "Nucleoprotein is ADP-ribosylated",
+      "id_compartment": "compartment_70101",
+      "source": "9729308",
+      "target": "9729275"
+    },
+    {
+      "id": "reaction_9729279",
+      "reaction_name": "Nucleoprotein is ADP-ribosylated",
+      "id_compartment": "compartment_70101",
+      "source": "9729308",
+      "target": "70106"
+    },
+    {
+      "id": "reaction_9694341",
+      "reaction_name": "Spike protein gets palmitoylated",
+      "id_compartment": "compartment_17957",
+      "source": "9696880",
+      "target": "162743"
+    },
+    {
+      "id": "reaction_9694341",
+      "reaction_name": "Spike protein gets palmitoylated",
+      "id_compartment": "compartment_17957",
+      "source": "9696880",
+      "target": "9696917"
+    },
+    {
+      "id": "reaction_9694341",
+      "reaction_name": "Spike protein gets palmitoylated",
+      "id_compartment": "compartment_17957",
+      "source": "9683736",
+      "target": "162743"
+    },
+    {
+      "id": "reaction_9694341",
+      "reaction_name": "Spike protein gets palmitoylated",
+      "id_compartment": "compartment_17957",
+      "source": "9683736",
+      "target": "9696917"
+    },
+    {
+      "id": "reaction_9694373",
+      "reaction_name": "Unphosphorylated nucleoprotein translocates to the plasma membrane",
+      "id_compartment": "compartment_70101",
+      "source": "9694300",
+      "target": "9694356"
+    },
+    {
+      "id": "reaction_9694718",
+      "reaction_name": "O-glycosylation of 3a is terminated",
+      "id_compartment": "compartment_190626",
+      "source": "9699093",
+      "target": "9699094"
+    },
+    {
+      "id": "reaction_9694718",
+      "reaction_name": "O-glycosylation of 3a is terminated",
+      "id_compartment": "compartment_190626",
+      "source": "9699093",
+      "target": "9694386"
+    },
+    {
+      "id": "reaction_9694718",
+      "reaction_name": "O-glycosylation of 3a is terminated",
+      "id_compartment": "compartment_190626",
+      "source": "9694658",
+      "target": "9699094"
+    },
+    {
+      "id": "reaction_9694718",
+      "reaction_name": "O-glycosylation of 3a is terminated",
+      "id_compartment": "compartment_190626",
+      "source": "9694658",
+      "target": "9694386"
+    },
+    {
+      "id": "reaction_9694525",
+      "reaction_name": "M protein gets N-glycosylated",
+      "id_compartment": "compartment_17957",
+      "source": "9683033",
+      "target": "156540"
+    },
+    {
+      "id": "reaction_9694525",
+      "reaction_name": "M protein gets N-glycosylated",
+      "id_compartment": "compartment_17957",
+      "source": "9683033",
+      "target": "9694684"
+    },
+    {
+      "id": "reaction_9694525",
+      "reaction_name": "M protein gets N-glycosylated",
+      "id_compartment": "compartment_17957",
+      "source": "9683033",
+      "target": "9683046"
+    },
+    {
+      "id": "reaction_9694525",
+      "reaction_name": "M protein gets N-glycosylated",
+      "id_compartment": "compartment_17957",
+      "source": "9694279",
+      "target": "156540"
+    },
+    {
+      "id": "reaction_9694525",
+      "reaction_name": "M protein gets N-glycosylated",
+      "id_compartment": "compartment_17957",
+      "source": "9694279",
+      "target": "9694684"
+    },
+    {
+      "id": "reaction_9694525",
+      "reaction_name": "M protein gets N-glycosylated",
+      "id_compartment": "compartment_17957",
+      "source": "9694279",
+      "target": "9683046"
+    },
+    {
+      "id": "reaction_9694367",
+      "reaction_name": "Glycosylated M localizes to the Golgi membrane",
+      "id_compartment": "compartment_12045",
+      "source": "9694684",
+      "target": "9694446"
+    },
+    {
+      "id": "reaction_9694337",
+      "reaction_name": "Trimmed spike protein binds to calnexin",
+      "id_compartment": "compartment_17957",
+      "source": "9696875",
+      "target": "9696880"
+    },
+    {
+      "id": "reaction_9687724",
+      "reaction_name": "GSK3B binds GSKi",
+      "id_compartment": "compartment_70101",
+      "source": "2997551",
+      "target": "9687663"
+    },
+    {
+      "id": "reaction_9687724",
+      "reaction_name": "GSK3B binds GSKi",
+      "id_compartment": "compartment_70101",
+      "source": "9687688",
+      "target": "9687663"
+    },
+    {
+      "id": "reaction_9694401",
+      "reaction_name": "E protein gets palmitoylated",
+      "id_compartment": "compartment_17957",
+      "source": "9694312",
+      "target": "162743"
+    },
+    {
+      "id": "reaction_9694401",
+      "reaction_name": "E protein gets palmitoylated",
+      "id_compartment": "compartment_17957",
+      "source": "9694312",
+      "target": "9694305"
+    },
+    {
+      "id": "reaction_9694401",
+      "reaction_name": "E protein gets palmitoylated",
+      "id_compartment": "compartment_17957",
+      "source": "9683736",
+      "target": "162743"
+    },
+    {
+      "id": "reaction_9694401",
+      "reaction_name": "E protein gets palmitoylated",
+      "id_compartment": "compartment_17957",
+      "source": "9683736",
+      "target": "9694305"
+    },
+    {
+      "id": "reaction_9694392",
+      "reaction_name": "3a translocates to the ERGIC",
+      "id_compartment": "compartment_17957",
+      "source": "9694584",
+      "target": "9694716"
+    },
+    {
+      "id": "reaction_9694294",
+      "reaction_name": "E pentamer is transported to the Golgi",
+      "id_compartment": "compartment_12045",
+      "source": "9694787",
+      "target": "9694408"
+    },
+    {
+      "id": "reaction_9694681",
+      "reaction_name": "mRNA5 is translated to protein M",
+      "id_compartment": "compartment_17957",
+      "source": "9694456",
+      "target": "9694279"
+    },
+    {
+      "id": "reaction_9686790",
+      "reaction_name": "ER-alpha glucosidases bind ER-alpha glucosidase inhibitors",
+      "id_compartment": "compartment_17957",
+      "source": "9686811",
+      "target": "9686842"
+    },
+    {
+      "id": "reaction_9686790",
+      "reaction_name": "ER-alpha glucosidases bind ER-alpha glucosidase inhibitors",
+      "id_compartment": "compartment_17957",
+      "source": "9682983",
+      "target": "9686842"
+    }
+  ],
+  "compartments": [
+    {
+      "id": "compartment_17957",
+      "name": "endoplasmic reticulum lumen"
+    },
+    {
+      "id": "compartment_70101",
+      "name": "cytosol"
+    },
+    {
+      "id": "compartment_12045",
+      "name": "endoplasmic reticulum membrane"
+    },
+    {
+      "id": "compartment_24337",
+      "name": "endocytic vesicle membrane"
+    },
+    {
+      "id": "compartment_190626",
+      "name": "endoplasmic reticulum-Golgi intermediate compartment"
+    },
+    {
+      "id": "compartment_876",
+      "name": "plasma membrane"
+    },
+    {
+      "id": "compartment_20699",
+      "name": "Golgi membrane"
+    },
+    {
+      "id": "compartment_6791047",
+      "name": "endoplasmic reticulum-Golgi intermediate compartment membrane"
+    },
+    {
+      "id": "compartment_453088",
+      "name": "integral component of lumenal side of endoplasmic reticulum membrane"
+    },
+    {
+      "id": "compartment_984",
+      "name": "extracellular region"
+    },
+    {
+      "id": "compartment_927893",
+      "name": "endoplasmic reticulum quality control compartment"
+    },
+    {
+      "id": "compartment_350",
+      "name": "nucleolus"
+    }
+  ]
+}

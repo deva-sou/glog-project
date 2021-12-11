@@ -8,11 +8,11 @@
         {"id" : "sp_6", "name" : "mol_F", "id_compartment" : "comp_2"}  
 	],
 	"edges" : [
-		{"id" : "rect_AB", "source" : "sp_1", "target" : "sp_2"},
-        {"id" : "rect_BC", "source" : "sp_2", "target" : "sp_3"},
-		{"id" : "rect_CD", "source" : "sp_3", "target" : "sp_4"},
-		{"id" : "rect_DE", "source" : "sp_4", "target" : "sp_5"},
-        {"id" : "rect_EF", "source" : "sp_5", "target" : "sp_6"}
+		{"id" : "rect_AB", "source" : "sp_1", "target" : "sp_2", "id_compartment" : "comp_1"},
+        {"id" : "rect_BC", "source" : "sp_2", "target" : "sp_3", "id_compartment" : "comp_1"},
+		{"id" : "rect_CD", "source" : "sp_3", "target" : "sp_4", "id_compartment" : "comp_2"},
+		{"id" : "rect_DE", "source" : "sp_4", "target" : "sp_5", "id_compartment" : "comp_2"},
+        {"id" : "rect_EF", "source" : "sp_5", "target" : "sp_6", "id_compartment" : "comp_2"}
 	], 
     "compartments" : [
         {"id" : "comp_1", "name" : "I"},

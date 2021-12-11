@@ -17,5 +17,5 @@ const drawGraph = (filePath) => {
         });
 }
 
-drawGraph("scripts/newVersion/ff73.json");
+drawGraph("scripts/newVersion/protein_translation3.json");
 

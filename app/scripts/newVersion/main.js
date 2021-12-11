@@ -14,6 +14,7 @@ const drawGraph = (filePath) => {
             const network = processing(_data); // prepare data
             console.log("network\n", network);
             graph(network); // construct visualization
+            
         });
 }
 

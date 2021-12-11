@@ -22,7 +22,10 @@
     "nodemon": "^2.0.15"
   },
   "dependencies": {
+    "canvas": "^2.8.0",
     "dotenv": "^10.0.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "jsdom": "^19.0.0",
+    "svg-saver-node": "^0.0.2"
   }
 }

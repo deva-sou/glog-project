@@ -2,7 +2,7 @@
  * FileName: graph2.js
  * Description: Script specified on creating the graphic. It includes the pipeline for svg selection, element creactions and D3.js utilisation
  * Date: 2021/12
- * version: 0.0.1
+ * version: 0.0.2
  * authors:  
 */
 
@@ -25,11 +25,17 @@ var svg = d3.select("svg"),
  * define simulation forces 
 */
 
+// var simulation = d3.forceSimulation()
+//   .force("link", d3.forceLink().id(function(d) { return d.id; }))
+//   .force("charge", d3.forceManyBody()) 
+//   .force("center", d3.forceCenter(width / 2, height / 2))
 var simulation = d3.forceSimulation()
+  .force("x",d3.forceX(width/2).strength(0.05))
+  .force("y",d3.forceY(width/2).strength(0.05))
   .force("link", d3.forceLink().id(function(d) { return d.id; }))
-  .force("charge", d3.forceManyBody()) 
+  .force("charge", d3.forceManyBody().strength(-70))
   .force("center", d3.forceCenter(width / 2, height / 2))
-
+  .force("collide",d3.forceCollide().radius(d => d.r * 5));
 /**
  * drawing function   
 */

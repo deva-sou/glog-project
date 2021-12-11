@@ -1,0 +1,1935 @@
+<?xml version='1.0' encoding='utf-8' standalone='no'?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" level="3" version="1">
+  <notes>
+    <annotation>
+      <p xmlns="http://www.w3.org/1999/xhtml">SBML generated from Reactome version 78 on 10/21/21 1:06 PM using JSBML version 1.5.</p>
+    </annotation>
+  </notes>
+  <model id="pathway_9694614" metaid="metaid_0" name="Attachment and Entry">
+    <notes>
+      <p xmlns="http://www.w3.org/1999/xhtml">This COVID-19 event has been created by a combination of computational inference (see https://reactome.org/documentation/inferred-events) from SARS-CoV-1 data and manual curation, as described in the summation for the overall SARS-CoV-2 infection pathway.Coronavirus replication is initiated by the binding of S protein to the cell surface receptor(s). The S protein is composed of two functional domains, S1 (bulb) which mediates receptor binding and S2 (stalk) which mediates membrane fusion. Specific interaction between S1 and the cognate receptor triggers a drastic conformational change in S2, leading to fusion between the virus envelope and the cellular membrane and release of the viral nucleocapsid into the host cell cytosol. Receptor binding is the major determinant of the host range and tissue tropism for a coronavirus. Some human coronaviruses (HCoVs ) have adopted cell surface enzymes as receptors, angiotensin converting enzyme 2 (ACE2) for SARS-CoV-2, SARS-CoV-1, and HCoV NL63. The receptor-bound S protein is activated by cleavage into S1 and S2, mediated by one of two of two host proteases, the endosomal cysteine protease cathepsin L and another trypsin like serine protease. Type II transmembrane serine proteases TMPRSS2 and TMPRSS11D have also been implicated in the activation of S protein of SARS-CoV-2. Host factors may play additional roles in viral entry (not annotated here). Valosin containing protein (VCP) contributes by a poorly understood mechanism to the release of coronavirus from early endosomes. Host factors may also restrict the attachment and entry of HCoV.</p>
+    </notes>
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+        <rdf:Description rdf:about="#metaid_0">
+          <dc:creator>
+            <rdf:Bag>
+              <rdf:li rdf:parseType="Resource">
+                <vCard:N rdf:parseType="Resource">
+                  <vCard:Family>Cook</vCard:Family>
+                  <vCard:Given>Justin</vCard:Given>
+                </vCard:N>
+                <vCard:ORG rdf:parseType="Resource">
+                  <vCard:Orgname>OICR</vCard:Orgname>
+                </vCard:ORG>
+              </rdf:li>
+              <rdf:li rdf:parseType="Resource">
+                <vCard:N rdf:parseType="Resource">
+                  <vCard:Family>Gillespie</vCard:Family>
+                  <vCard:Given>Marc E</vCard:Given>
+                </vCard:N>
+                <vCard:ORG rdf:parseType="Resource">
+                  <vCard:Orgname>NYU School of Medicine, Department of Biochemistry</vCard:Orgname>
+                </vCard:ORG>
+              </rdf:li>
+              <rdf:li rdf:parseType="Resource">
+                <vCard:N rdf:parseType="Resource">
+                  <vCard:Family>Jassal</vCard:Family>
+                  <vCard:Given>Bijay</vCard:Given>
+                </vCard:N>
+                <vCard:ORG rdf:parseType="Resource">
+                  <vCard:Orgname>OICR</vCard:Orgname>
+                </vCard:ORG>
+              </rdf:li>
+            </rdf:Bag>
+          </dc:creator>
+          <dcterms:created rdf:parseType="Resource">
+            <dcterms:W3CDTF>2020-07-07T13:25:06Z</dcterms:W3CDTF>
+          </dcterms:created>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2020-11-20T00:07:36Z</dcterms:W3CDTF>
+          </dcterms:modified>
+          <dcterms:modified rdf:parseType="Resource">
+            <dcterms:W3CDTF>2020-09-09T02:54:19Z</dcterms:W3CDTF>
+          </dcterms:modified>
+          <bqbiol:is>
+            <rdf:Bag>
+              <rdf:li rdf:resource="https://identifiers.org/reactome:R-HSA-9694614" />
+            </rdf:Bag>
+          </bqbiol:is>
+          <bqbiol:isDescribedBy>
+            <rdf:Bag>
+              <rdf:li rdf:resource="https://identifiers.org/pubmed:31226023" />
+            </rdf:Bag>
+          </bqbiol:isDescribedBy>
+        </rdf:Description>
+      </rdf:RDF>
+    </annotation>
+    <listOfCompartments>
+      <compartment constant="true" id="compartment_528865" metaid="metaid_2" name="endocytic vesicle lumen" sboTerm="SBO:0000290">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#metaid_2">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/GO:0071682" />
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </compartment>
+      <compartment constant="true" id="compartment_876" metaid="metaid_4" name="plasma membrane" sboTerm="SBO:0000290">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#metaid_4">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/GO:0005886" />
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </compartment>
+      <compartment constant="true" id="compartment_70101" metaid="metaid_7" name="cytosol" sboTerm="SBO:0000290">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#metaid_7">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/GO:0005829" />
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </compartment>
+      <compartment constant="true" id="compartment_984" metaid="metaid_18" name="extracellular region" sboTerm="SBO:0000290">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#metaid_18">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/GO:0005576" />
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </compartment>
+      <compartment constant="true" id="compartment_24337" metaid="metaid_24" name="endocytic vesicle membrane" sboTerm="SBO:0000290">
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#metaid_24">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/GO:0030666" />
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </compartment>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species boundaryCondition="false" compartment="compartment_528865" constant="false" hasOnlySubstanceUnits="false" id="species_9686717" metaid="metaid_1" name="Cathepsin L1 [endocytic vesicle lumen]" sboTerm="SBO:0000253">
+        <notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">Derived from a Reactome Complex. Here is Reactomes nested structure for this complex: (2xP07711). Reactome uses a nested structure for complexes, which cannot be fully represented in SBML Level 3 Version 1 core</p>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#metaid_1">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-HSA-9686717" />
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:hasPart>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot:P07711" />
+                </rdf:Bag>
+              </bqbiol:hasPart>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species boundaryCondition="false" compartment="compartment_876" constant="false" hasOnlySubstanceUnits="false" id="species_9681532" metaid="metaid_3" name="TMPRSS2:TMPRSS2 inhibitors [plasma membrane]" sboTerm="SBO:0000253">
+        <notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">Derived from a Reactome Complex. Here is Reactomes nested structure for this complex: (O15393, 10732, 10733, 6432, 4262). Reactome uses a nested structure for complexes, which cannot be fully represented in SBML Level 3 Version 1 core</p>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#metaid_3">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-HSA-9681532" />
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:hasPart>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot:O15393" />
+                  <rdf:li rdf:resource="https://www.guidetopharmacology.org/GRAC/LigandDisplayForward?ligandId=10732" />
+                  <rdf:li rdf:resource="https://www.guidetopharmacology.org/GRAC/LigandDisplayForward?ligandId=10733" />
+                  <rdf:li rdf:resource="https://www.guidetopharmacology.org/GRAC/LigandDisplayForward?ligandId=6432" />
+                  <rdf:li rdf:resource="https://www.guidetopharmacology.org/GRAC/LigandDisplayForward?ligandId=4262" />
+                </rdf:Bag>
+              </bqbiol:hasPart>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species boundaryCondition="false" compartment="compartment_528865" constant="false" hasOnlySubstanceUnits="false" id="species_9693170" metaid="metaid_5" name="CTSL inhibitors [endocytic vesicle lumen]">
+        <notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">Derived from a Reactome CandidateSet. A list of entities, one or more of which might perform the given function</p>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#metaid_5">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-ALL-9693170" />
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:hasPart>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/pubchem.compound:3767" />
+                  <rdf:li rdf:resource="https://www.guidetopharmacology.org/GRAC/LigandDisplayForward?ligandId=10924" />
+                  <rdf:li rdf:resource="https://www.guidetopharmacology.org/GRAC/LigandDisplayForward?ligandId=7862" />
+                  <rdf:li rdf:resource="https://www.guidetopharmacology.org/GRAC/LigandDisplayForward?ligandId=9184" />
+                  <rdf:li rdf:resource="https://www.guidetopharmacology.org/GRAC/LigandDisplayForward?ligandId=2765" />
+                </rdf:Bag>
+              </bqbiol:hasPart>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species boundaryCondition="false" compartment="compartment_70101" constant="false" hasOnlySubstanceUnits="false" id="species_1181251" metaid="metaid_6" name="VCP [cytosol]" sboTerm="SBO:0000297">
+        <notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">Derived from a Reactome EntityWithAccessionedSequence. This is a protein</p>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#metaid_6">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot:P55072" />
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-HSA-1181251" />
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-MMU-1181251" />
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-RNO-1181251" />
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-CFA-1181251" />
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-SSC-1181251" />
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-DRE-1181251" />
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-XTR-1181251" />
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-GGA-1181251" />
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-DME-1181251" />
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-CEL-1181251" />
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-DDI-1181251" />
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-SPO-1181251" />
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-SCE-1181251" />
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-PFA-1181251" />
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species boundaryCondition="false" compartment="compartment_876" constant="false" hasOnlySubstanceUnits="false" id="species_9698997" metaid="metaid_8" name="S1:S2:M lattice:E protein [plasma membrane]" sboTerm="SBO:0000253">
+        <notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">Derived from a Reactome Complex. Here is Reactomes nested structure for this complex: (1200xP0DTC5, 450xP0DTC2, 15xP0DTC4). Reactome uses a nested structure for complexes, which cannot be fully represented in SBML Level 3 Version 1 core</p>
+          <p xmlns="http://www.w3.org/1999/xhtml">This COVID-19 Complex instance was generated via electronic inference from a curated CoV-1 (Human SARS coronavirus) Reactome instance. In Reactome, inference is the process used to automatically create orthologous Pathways, Reactions and PhysicalEntities from our expertly curated data (https://reactome.org/documentation/inferred-events).</p>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#metaid_8">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-COV-9698997" />
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:hasPart>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot:P0DTC5" />
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot:P0DTC2" />
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot:P0DTC4" />
+                </rdf:Bag>
+              </bqbiol:hasPart>
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-COV-9686688" />
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species boundaryCondition="false" compartment="compartment_70101" constant="false" hasOnlySubstanceUnits="false" id="species_9694702" metaid="metaid_9" name="N tetramer [cytosol]" sboTerm="SBO:0000253">
+        <notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">Derived from a Reactome Complex. Here is Reactomes nested structure for this complex: (4xP0DTC9). Reactome uses a nested structure for complexes, which cannot be fully represented in SBML Level 3 Version 1 core</p>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#metaid_9">
+              <bqbiol:isDescribedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/pubmed:32654247" />
+                </rdf:Bag>
+              </bqbiol:isDescribedBy>
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-COV-9694702" />
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:hasPart>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot:P0DTC9" />
+                </rdf:Bag>
+              </bqbiol:hasPart>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species boundaryCondition="false" compartment="compartment_876" constant="false" hasOnlySubstanceUnits="false" id="species_9683480" metaid="metaid_10" name="glycosylated-ACE2 [plasma membrane]" sboTerm="SBO:0000297">
+        <notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">Derived from a Reactome EntityWithAccessionedSequence. This is a protein</p>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#metaid_10">
+              <bqbiol:isDescribedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/pubmed:14754895" />
+                </rdf:Bag>
+              </bqbiol:isDescribedBy>
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot:Q9BYF1" />
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-HSA-9683480" />
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:hasVersion>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://www.ebi.ac.uk/ols/ontologies/mod/terms?obo_id=MOD:00160" />
+                </rdf:Bag>
+              </bqbiol:hasVersion>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species boundaryCondition="false" compartment="compartment_70101" constant="false" hasOnlySubstanceUnits="false" id="species_9694461" metaid="metaid_11" name="encapsidated SARS-CoV-2 genomic RNA (plus strand) [cytosol]" sboTerm="SBO:0000253">
+        <notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">Derived from a Reactome Complex. Here is Reactomes nested structure for this complex: (MN908947.3, 600xP0DTC9). Reactome uses a nested structure for complexes, which cannot be fully represented in SBML Level 3 Version 1 core</p>
+          <p xmlns="http://www.w3.org/1999/xhtml">This COVID-19 Complex instance was generated via electronic inference from a curated CoV-1 (Human SARS coronavirus) Reactome instance. In Reactome, inference is the process used to automatically create orthologous Pathways, Reactions and PhysicalEntities from our expertly curated data (https://reactome.org/documentation/inferred-events).</p>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#metaid_11">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-COV-9694461" />
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:hasPart>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq:MN908947.3" />
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot:P0DTC9" />
+                </rdf:Bag>
+              </bqbiol:hasPart>
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-COV-9686697" />
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species boundaryCondition="false" compartment="compartment_70101" constant="false" hasOnlySubstanceUnits="false" id="species_9685614" metaid="metaid_12" name="CQ, HCQ [cytosol]">
+        <notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">Derived from a Reactome DefinedSet. This is a list of alternative entities, any of which can perform the given function</p>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#metaid_12">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-ALL-9685614" />
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:hasPart>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://www.guidetopharmacology.org/GRAC/LigandDisplayForward?ligandId=5535" />
+                  <rdf:li rdf:resource="https://www.guidetopharmacology.org/GRAC/LigandDisplayForward?ligandId=7198" />
+                </rdf:Bag>
+              </bqbiol:hasPart>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species boundaryCondition="false" compartment="compartment_528865" constant="false" hasOnlySubstanceUnits="false" id="species_9683316" metaid="metaid_13" name="CTSL:CTSL inhibitors [endocytic vesicle lumen]" sboTerm="SBO:0000253">
+        <notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">Derived from a Reactome Complex. Here is Reactomes nested structure for this complex: (3767, 10924, 7862, 2xP07711, 9184, 2765). Reactome uses a nested structure for complexes, which cannot be fully represented in SBML Level 3 Version 1 core</p>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#metaid_13">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-HSA-9683316" />
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:hasPart>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/pubchem.compound:3767" />
+                  <rdf:li rdf:resource="https://www.guidetopharmacology.org/GRAC/LigandDisplayForward?ligandId=10924" />
+                  <rdf:li rdf:resource="https://www.guidetopharmacology.org/GRAC/LigandDisplayForward?ligandId=7862" />
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot:P07711" />
+                  <rdf:li rdf:resource="https://www.guidetopharmacology.org/GRAC/LigandDisplayForward?ligandId=9184" />
+                  <rdf:li rdf:resource="https://www.guidetopharmacology.org/GRAC/LigandDisplayForward?ligandId=2765" />
+                </rdf:Bag>
+              </bqbiol:hasPart>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species boundaryCondition="false" compartment="compartment_528865" constant="false" hasOnlySubstanceUnits="false" id="species_9694585" metaid="metaid_14" name="S1:S2:M:E:encapsidated SARS-CoV-2 genomic RNA: 7a:O-glycosyl 3a tetramer [endocytic vesicle lumen]" sboTerm="SBO:0000253">
+        <notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">Derived from a Reactome Complex. Here is Reactomes nested structure for this complex: (4xP0DTC3, 1200xP0DTC5, MN908947.3, P0DTC7, 450xP0DTC2, 15xP0DTC4, 600xP0DTC9). Reactome uses a nested structure for complexes, which cannot be fully represented in SBML Level 3 Version 1 core</p>
+          <p xmlns="http://www.w3.org/1999/xhtml">This COVID-19 Complex instance was generated via electronic inference from a curated CoV-1 (Human SARS coronavirus) Reactome instance. In Reactome, inference is the process used to automatically create orthologous Pathways, Reactions and PhysicalEntities from our expertly curated data (https://reactome.org/documentation/inferred-events).</p>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#metaid_14">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-COV-9694585" />
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:hasPart>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot:P0DTC3" />
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot:P0DTC5" />
+                  <rdf:li rdf:resource="https://identifiers.org/refseq:MN908947.3" />
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot:P0DTC7" />
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot:P0DTC2" />
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot:P0DTC4" />
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot:P0DTC9" />
+                </rdf:Bag>
+              </bqbiol:hasPart>
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-COV-9686703" />
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species boundaryCondition="false" compartment="compartment_528865" constant="false" hasOnlySubstanceUnits="false" id="species_9685618" metaid="metaid_15" name="CQ2+, HCQ2+ [endocytic vesicle lumen]">
+        <notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">Derived from a Reactome DefinedSet. This is a list of alternative entities, any of which can perform the given function</p>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#metaid_15">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-ALL-9685618" />
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:hasPart>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound:24848403" />
+                  <rdf:li rdf:resource="https://identifiers.org/kegg.compound:78435478" />
+                </rdf:Bag>
+              </bqbiol:hasPart>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species boundaryCondition="false" compartment="compartment_528865" constant="false" hasOnlySubstanceUnits="false" id="species_9685610" metaid="metaid_16" name="CQ, HCQ [endocytic vesicle lumen]">
+        <notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">Derived from a Reactome DefinedSet. This is a list of alternative entities, any of which can perform the given function</p>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#metaid_16">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-ALL-9685610" />
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:hasPart>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://www.guidetopharmacology.org/GRAC/LigandDisplayForward?ligandId=5535" />
+                  <rdf:li rdf:resource="https://www.guidetopharmacology.org/GRAC/LigandDisplayForward?ligandId=7198" />
+                </rdf:Bag>
+              </bqbiol:hasPart>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species boundaryCondition="false" compartment="compartment_984" constant="false" hasOnlySubstanceUnits="false" id="species_9694785" metaid="metaid_17" name="S3:M:E:encapsidated  SARS-CoV-2 genomic RNA: 7a:O-glycosyl 3a tetramer:glycosylated-ACE2 [extracellular region]" sboTerm="SBO:0000253">
+        <notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">Derived from a Reactome Complex. Here is Reactomes nested structure for this complex: (4xP0DTC3, 1200xP0DTC5, MN908947.3, P0DTC7, Q9BYF1, 225xP0DTC2, 15xP0DTC4, 600xP0DTC9). Reactome uses a nested structure for complexes, which cannot be fully represented in SBML Level 3 Version 1 core</p>
+          <p xmlns="http://www.w3.org/1999/xhtml">This COVID-19 Complex instance was generated via electronic inference from a curated CoV-1 (Human SARS coronavirus) Reactome instance. In Reactome, inference is the process used to automatically create orthologous Pathways, Reactions and PhysicalEntities from our expertly curated data (https://reactome.org/documentation/inferred-events).</p>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#metaid_17">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-HSA-9694785" />
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:hasPart>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot:P0DTC3" />
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot:P0DTC5" />
+                  <rdf:li rdf:resource="https://identifiers.org/refseq:MN908947.3" />
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot:P0DTC7" />
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot:Q9BYF1" />
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot:P0DTC2" />
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot:P0DTC4" />
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot:P0DTC9" />
+                </rdf:Bag>
+              </bqbiol:hasPart>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species boundaryCondition="false" compartment="compartment_876" constant="false" hasOnlySubstanceUnits="false" id="species_2159856" metaid="metaid_19" name="FURIN [plasma membrane]" sboTerm="SBO:0000297">
+        <notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">Derived from a Reactome EntityWithAccessionedSequence. This is a protein</p>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#metaid_19">
+              <bqbiol:isDescribedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/pubmed:1629222" />
+                </rdf:Bag>
+              </bqbiol:isDescribedBy>
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot:P09958" />
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-HSA-2159856" />
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-MMU-2159856" />
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-RNO-2159856" />
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-CFA-2159856" />
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-SSC-2159856" />
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-DRE-2159856" />
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-XTR-2159856" />
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-GGA-2159856" />
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species boundaryCondition="false" compartment="compartment_528865" constant="false" hasOnlySubstanceUnits="false" id="species_9694758" metaid="metaid_20" name="S3:M:E:encapsidated SARS-CoV-2 genomic RNA: 7a:O-glycosyl 3a tetramer:glycosylated-ACE2 [endocytic vesicle lumen]" sboTerm="SBO:0000253">
+        <notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">Derived from a Reactome Complex. Here is Reactomes nested structure for this complex: (4xP0DTC3, 1200xP0DTC5, MN908947.3, P0DTC7, Q9BYF1, 225xP0DTC2, 15xP0DTC4, 600xP0DTC9). Reactome uses a nested structure for complexes, which cannot be fully represented in SBML Level 3 Version 1 core</p>
+          <p xmlns="http://www.w3.org/1999/xhtml">This COVID-19 Complex instance was generated via electronic inference from a curated CoV-1 (Human SARS coronavirus) Reactome instance. In Reactome, inference is the process used to automatically create orthologous Pathways, Reactions and PhysicalEntities from our expertly curated data (https://reactome.org/documentation/inferred-events).</p>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#metaid_20">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-HSA-9694758" />
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:hasPart>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot:P0DTC3" />
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot:P0DTC5" />
+                  <rdf:li rdf:resource="https://identifiers.org/refseq:MN908947.3" />
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot:P0DTC7" />
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot:Q9BYF1" />
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot:P0DTC2" />
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot:P0DTC4" />
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot:P0DTC9" />
+                </rdf:Bag>
+              </bqbiol:hasPart>
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-HSA-9686692" />
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species boundaryCondition="false" compartment="compartment_984" constant="false" hasOnlySubstanceUnits="false" id="species_9682035" metaid="metaid_21" name="TMPRSS2 inhibitors [extracellular region]">
+        <notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">Derived from a Reactome CandidateSet. A list of entities, one or more of which might perform the given function</p>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#metaid_21">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-ALL-9682035" />
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:hasPart>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://www.guidetopharmacology.org/GRAC/LigandDisplayForward?ligandId=10732" />
+                  <rdf:li rdf:resource="https://www.guidetopharmacology.org/GRAC/LigandDisplayForward?ligandId=10733" />
+                  <rdf:li rdf:resource="https://www.guidetopharmacology.org/GRAC/LigandDisplayForward?ligandId=6432" />
+                  <rdf:li rdf:resource="https://www.guidetopharmacology.org/GRAC/LigandDisplayForward?ligandId=4262" />
+                </rdf:Bag>
+              </bqbiol:hasPart>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species boundaryCondition="false" compartment="compartment_528865" constant="false" hasOnlySubstanceUnits="false" id="species_5228597" metaid="metaid_22" name="H+ [endocytic vesicle lumen]" sboTerm="SBO:0000247">
+        <notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">Derived from a Reactome SimpleEntity. This is a small compound</p>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#metaid_22">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/CHEBI:15378" />
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-ALL-5228597" />
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species boundaryCondition="false" compartment="compartment_24337" constant="false" hasOnlySubstanceUnits="false" id="species_9698958" metaid="metaid_23" name="ACE2 [endocytic vesicle membrane]" sboTerm="SBO:0000297">
+        <notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">Derived from a Reactome EntityWithAccessionedSequence. This is a protein</p>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#metaid_23">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot:Q9BYF1" />
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-HSA-9698958" />
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species boundaryCondition="false" compartment="compartment_24337" constant="false" hasOnlySubstanceUnits="false" id="species_9686721" metaid="metaid_25" name="glycosylated-ACE2 [endocytic vesicle membrane]" sboTerm="SBO:0000297">
+        <notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">Derived from a Reactome EntityWithAccessionedSequence. This is a protein</p>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#metaid_25">
+              <bqbiol:isDescribedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/pubmed:14754895" />
+                </rdf:Bag>
+              </bqbiol:isDescribedBy>
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot:Q9BYF1" />
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-HSA-9686721" />
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:hasVersion>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://www.ebi.ac.uk/ols/ontologies/mod/terms?obo_id=MOD:00160" />
+                </rdf:Bag>
+              </bqbiol:hasVersion>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species boundaryCondition="false" compartment="compartment_984" constant="false" hasOnlySubstanceUnits="false" id="species_9694500" metaid="metaid_26" name="S3:M:E:encapsidated SARS-CoV-2 genomic RNA: 7a:O-glycosyl 3a tetramer [extracellular region]" sboTerm="SBO:0000253">
+        <notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">Derived from a Reactome Complex. Here is Reactomes nested structure for this complex: (4xP0DTC3, 1200xP0DTC5, MN908947.3, P0DTC7, 225xP0DTC2, 15xP0DTC4, 600xP0DTC9). Reactome uses a nested structure for complexes, which cannot be fully represented in SBML Level 3 Version 1 core</p>
+          <p xmlns="http://www.w3.org/1999/xhtml">This COVID-19 Complex instance was generated via electronic inference from a curated CoV-1 (Human SARS coronavirus) Reactome instance. In Reactome, inference is the process used to automatically create orthologous Pathways, Reactions and PhysicalEntities from our expertly curated data (https://reactome.org/documentation/inferred-events).</p>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#metaid_26">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-COV-9694500" />
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:hasPart>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot:P0DTC3" />
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot:P0DTC5" />
+                  <rdf:li rdf:resource="https://identifiers.org/refseq:MN908947.3" />
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot:P0DTC7" />
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot:P0DTC2" />
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot:P0DTC4" />
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot:P0DTC9" />
+                </rdf:Bag>
+              </bqbiol:hasPart>
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-COV-9685506" />
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-COV-9685539" />
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species boundaryCondition="false" compartment="compartment_876" constant="false" hasOnlySubstanceUnits="false" id="species_9686707" metaid="metaid_27" name="TMPRSS2 [plasma membrane]" sboTerm="SBO:0000297">
+        <notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">Derived from a Reactome EntityWithAccessionedSequence. This is a protein</p>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#metaid_27">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot:O15393" />
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-HSA-9686707" />
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species boundaryCondition="false" compartment="compartment_24337" constant="false" hasOnlySubstanceUnits="false" id="species_9694534" metaid="metaid_28" name="S1:S2:M:E: 7a:O-glycosyl 3a tetramer [endocytic vesicle membrane]" sboTerm="SBO:0000253">
+        <notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">Derived from a Reactome Complex. Here is Reactomes nested structure for this complex: (4xP0DTC3, 1200xP0DTC5, P0DTC7, 450xP0DTC2, 15xP0DTC4). Reactome uses a nested structure for complexes, which cannot be fully represented in SBML Level 3 Version 1 core</p>
+          <p xmlns="http://www.w3.org/1999/xhtml">This COVID-19 Complex instance was generated via electronic inference from a curated CoV-1 (Human SARS coronavirus) Reactome instance. In Reactome, inference is the process used to automatically create orthologous Pathways, Reactions and PhysicalEntities from our expertly curated data (https://reactome.org/documentation/inferred-events).</p>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#metaid_28">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-COV-9694534" />
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:hasPart>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot:P0DTC3" />
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot:P0DTC5" />
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot:P0DTC7" />
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot:P0DTC2" />
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot:P0DTC4" />
+                </rdf:Bag>
+              </bqbiol:hasPart>
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-COV-9686705" />
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species boundaryCondition="false" compartment="compartment_70101" constant="false" hasOnlySubstanceUnits="false" id="species_9694393" metaid="metaid_29" name="m7G(5')pppAm-capped, polyadenylated SARS-CoV-2 genomic RNA (plus strand) [cytosol]" sboTerm="SBO:0000297">
+        <notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">Derived from a Reactome EntityWithAccessionedSequence. This is a protein</p>
+          <p xmlns="http://www.w3.org/1999/xhtml">SARS-CoV-2 mRNA2 open reading frame has a length of 3,822 nt and encodes the 1,273 aa spike preprotein (Wu et al, 2020).</p>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#metaid_29">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/refseq:MN908947.3" />
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-COV-9694393" />
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-COV-9685518" />
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+    </listOfSpecies>
+    <listOfReactions>
+      <reaction compartment="compartment_528865" fast="false" id="reaction_9694287" metaid="metaid_30" name="Cleavage of S protein into S1:S2" reversible="false">
+        <notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">This COVID-19 event has been created by a combination of computational inference (see https://reactome.org/documentation/inferred-events) from SARS-CoV-1 data and manual curation, as described in the summation for the overall SARS-CoV-2 infection pathway.Within the host cell endocytic vesicle, SARS-CoV-2 Spike (S) protein is cleaved between residues 797 and 798 by cathepsin L1 (CTSL) (Huang et al. 2006). The roles of S protein in viral binding to the host cell membrane and fusion of viral and host cell membranes and thus the central role of S protein in determining the host range and tissue tropisms of the virus are reviewed by Belouzard et al. (2012).</p>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#metaid_30">
+              <dc:creator>
+                <rdf:Bag>
+                  <rdf:li rdf:parseType="Resource">
+                    <vCard:N rdf:parseType="Resource">
+                      <vCard:Family>Cook</vCard:Family>
+                      <vCard:Given>Justin</vCard:Given>
+                    </vCard:N>
+                    <vCard:ORG rdf:parseType="Resource">
+                      <vCard:Orgname>OICR</vCard:Orgname>
+                    </vCard:ORG>
+                  </rdf:li>
+                  <rdf:li rdf:parseType="Resource">
+                    <vCard:N rdf:parseType="Resource">
+                      <vCard:Family>Gillespie</vCard:Family>
+                      <vCard:Given>Marc E</vCard:Given>
+                    </vCard:N>
+                    <vCard:ORG rdf:parseType="Resource">
+                      <vCard:Orgname>NYU School of Medicine, Department of Biochemistry</vCard:Orgname>
+                    </vCard:ORG>
+                  </rdf:li>
+                  <rdf:li rdf:parseType="Resource">
+                    <vCard:N rdf:parseType="Resource">
+                      <vCard:Family>Gillespie</vCard:Family>
+                      <vCard:Given>Marc E</vCard:Given>
+                    </vCard:N>
+                    <vCard:ORG rdf:parseType="Resource">
+                      <vCard:Orgname>NYU School of Medicine, Department of Biochemistry</vCard:Orgname>
+                    </vCard:ORG>
+                  </rdf:li>
+                </rdf:Bag>
+              </dc:creator>
+              <dcterms:created rdf:parseType="Resource">
+                <dcterms:W3CDTF>2020-07-07T13:25:06Z</dcterms:W3CDTF>
+              </dcterms:created>
+              <dcterms:modified rdf:parseType="Resource">
+                <dcterms:W3CDTF>2020-09-09T04:23:26Z</dcterms:W3CDTF>
+              </dcterms:modified>
+              <dcterms:modified rdf:parseType="Resource">
+                <dcterms:W3CDTF>2020-09-09T02:54:19Z</dcterms:W3CDTF>
+              </dcterms:modified>
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-HSA-9694287" />
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:isDescribedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/pubmed:19321428" />
+                  <rdf:li rdf:resource="https://identifiers.org/pubmed:22816037" />
+                </rdf:Bag>
+              </bqbiol:isDescribedBy>
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-HSA-9694287" />
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/GO:0004252" />
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.19.1" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.1" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.10" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.102" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.20" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.21" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.22" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.26" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.27" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.34" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.35" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.36" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.38" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.39" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.4" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.41" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.42" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.43" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.45" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.46" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.47" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.48" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.5" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.53" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.54" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.59" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.6" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.61" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.62" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.68" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.69" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.7" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.71" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.73" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.75" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.78" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.79" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.83" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.87" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.88" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.89" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.9" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.92" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.93" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.94" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.24.3" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.24.34" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.24.7" />
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:occursIn>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/DOID:0080600" />
+                </rdf:Bag>
+              </bqbiol:occursIn>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference constant="true" id="speciesreference_9694287_input_9694758" sboTerm="SBO:0000010" species="species_9694758" stoichiometry="1" />
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" id="speciesreference_9694287_output_9686721" sboTerm="SBO:0000011" species="species_9686721" stoichiometry="1" />
+          <speciesReference constant="true" id="speciesreference_9694287_output_9694585" sboTerm="SBO:0000011" species="species_9694585" stoichiometry="1" />
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference id="modifierspeciesreference_9694287_catalyst_9686717" sboTerm="SBO:0000013" species="species_9686717" />
+          <modifierSpeciesReference id="modifierspeciesreference_9694287_negativeregulator_9683316" sboTerm="SBO:0000020" species="species_9683316">
+            <notes>
+              <p xmlns="http://www.w3.org/1999/xhtml">This describes an Event/CatalystActivity that is negatively regulated by the Regulator (e.g., allosteric inhibition, competitive inhibition</p>
+            </notes>
+          </modifierSpeciesReference>
+        </listOfModifiers>
+      </reaction>
+      <reaction compartment="compartment_984" fast="false" id="reaction_9681514" metaid="metaid_31" name="TMPRSS2 binds TMPRSS2 inhibitors" reversible="false">
+        <notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">Entry of influenza, parainfluenza and coronaviruses into airway epithelial cells requires binding of a viral spike protein to a host cell receptor, followed by cleavage and activation of the viral spike protein mediated by the host cell. Without this cleavage, fusion of the viral and host cell membranes is blocked. The primary receptor for the human SARS-CoV-1 virus is angiotensin converting enzyme 2 (ACE2) (Li et al. 2003). The resultant complex is cleaved by the protease transmembrane protease serine 2 (TMPRSS2) (Shulla et al. 2011, Heurich et al. 2014). Therefore, active site inhibitors of these airway proteases could have broad therapeutic applicability against multiple respiratory viruses (Laporte and Naesens 2017). The approved drug camostat is a protease inhibitor that may block SARS-CoV-2 entry into cells by inhibiting the actions of TMPRSS2 (Kawase et al. 2012, Hoffmann et al. 2020). Nafamostat, another serine protease inhibitor, was found to be a potent inhibitor of S-mediated membrane fusion and blocked MERS-CoV infection in vitro (Yamamoto et al. 2016).Otamixaban (FXV673), an anticoagulant, is a potent and selective direct inhibitor of coagulation factor Xa. Virtual docking studies suggest that otamixaban may bind to the serine protease TMPRSS2 (Rensi et al. 2020, preprint). Inhibition of TMPRSS2 is being examined for antiviral activity but its inhibitory potential and/or antiviral activity have not yet been determined so it is annotated here as a candidate drug. I-432 is another inhibitor of TMPRSS2 under investigation for anti viral potential (Pászti-Gere et al. 2016).</p>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#metaid_31">
+              <dc:creator>
+                <rdf:Bag>
+                  <rdf:li rdf:parseType="Resource">
+                    <vCard:N rdf:parseType="Resource">
+                      <vCard:Family>Jassal</vCard:Family>
+                      <vCard:Given>Bijay</vCard:Given>
+                    </vCard:N>
+                    <vCard:ORG rdf:parseType="Resource">
+                      <vCard:Orgname>OICR</vCard:Orgname>
+                    </vCard:ORG>
+                  </rdf:li>
+                  <rdf:li rdf:parseType="Resource">
+                    <vCard:N rdf:parseType="Resource">
+                      <vCard:Family>Gillespie</vCard:Family>
+                      <vCard:Given>Marc E</vCard:Given>
+                    </vCard:N>
+                    <vCard:ORG rdf:parseType="Resource">
+                      <vCard:Orgname>NYU School of Medicine, Department of Biochemistry</vCard:Orgname>
+                    </vCard:ORG>
+                  </rdf:li>
+                  <rdf:li rdf:parseType="Resource">
+                    <vCard:N rdf:parseType="Resource">
+                      <vCard:Family>Gillespie</vCard:Family>
+                      <vCard:Given>Marc E</vCard:Given>
+                    </vCard:N>
+                    <vCard:ORG rdf:parseType="Resource">
+                      <vCard:Orgname>NYU School of Medicine, Department of Biochemistry</vCard:Orgname>
+                    </vCard:ORG>
+                  </rdf:li>
+                </rdf:Bag>
+              </dc:creator>
+              <dcterms:created rdf:parseType="Resource">
+                <dcterms:W3CDTF>2020-04-02T11:01:46Z</dcterms:W3CDTF>
+              </dcterms:created>
+              <dcterms:modified rdf:parseType="Resource">
+                <dcterms:W3CDTF>2020-09-09T04:23:26Z</dcterms:W3CDTF>
+              </dcterms:modified>
+              <dcterms:modified rdf:parseType="Resource">
+                <dcterms:W3CDTF>2020-09-09T02:54:19Z</dcterms:W3CDTF>
+              </dcterms:modified>
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-HSA-9681514" />
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:isDescribedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/pubmed:32142651" />
+                  <rdf:li rdf:resource="https://identifiers.org/pubmed:27550352" />
+                  <rdf:li rdf:resource="https://identifiers.org/pubmed:22496216" />
+                  <rdf:li rdf:resource="https://identifiers.org/pubmed:24227843" />
+                  <rdf:li rdf:resource="https://identifiers.org/pubmed:27277342" />
+                </rdf:Bag>
+              </bqbiol:isDescribedBy>
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-HSA-9681514" />
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:isDescribedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/pubmed:28414992" />
+                  <rdf:li rdf:resource="https://identifiers.org/pubmed:21068237" />
+                  <rdf:li rdf:resource="https://identifiers.org/pubmed:14647384" />
+                </rdf:Bag>
+              </bqbiol:isDescribedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference constant="true" id="speciesreference_9681514_input_9682035" sboTerm="SBO:0000010" species="species_9682035" stoichiometry="1" />
+          <speciesReference constant="true" id="speciesreference_9681514_input_9686707" sboTerm="SBO:0000010" species="species_9686707" stoichiometry="1" />
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" id="speciesreference_9681514_output_9681532" sboTerm="SBO:0000011" species="species_9681532" stoichiometry="1" />
+        </listOfProducts>
+      </reaction>
+      <reaction compartment="compartment_528865" fast="false" id="reaction_9697423" metaid="metaid_32" name="Endocytosis of SARS-CoV-2 Virion" reversible="false">
+        <notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">This COVID-19 pathway has been created by a combination of computational inference from SARS-CoV-1 data (https://reactome.org/documentation/inferred-events) and manual curation, as described in the summation for the overall SARS-CoV-2 infection pathway. Based on SARS-CoV-1 experiments, SARS-CoV-2 virions attached to the host cell surface via a complex involving viral spike (S) protein and host angiotensin-converting enzyme 2 (ACE2) are inferred to undergo endocytosis. In the case of SARS-CoV-1, studies with pseudoviruses have established that S protein is necessary and sufficient for mediating viral attachment and entry. Inhibition of this SARS-CoV-1 S protein-mediated transduction by two different classes of lysosomotropic agents in multiple cell lines strongly suggests that acidification of endosomes is needed for viral entry (Hofmann et al. 2004; Simmons et al. 2004; Yang et al. 2004). The roles of S protein in viral binding to the host cell membrane and fusion of viral and host cell membranes and thus the central role of S protein in determining the host range and tissue tropisms of the virus are reviewed by Belouzard et al. (2012).</p>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#metaid_32">
+              <dc:creator>
+                <rdf:Bag>
+                  <rdf:li rdf:parseType="Resource">
+                    <vCard:N rdf:parseType="Resource">
+                      <vCard:Family>Gillespie</vCard:Family>
+                      <vCard:Given>Marc E</vCard:Given>
+                    </vCard:N>
+                    <vCard:ORG rdf:parseType="Resource">
+                      <vCard:Orgname>NYU School of Medicine, Department of Biochemistry</vCard:Orgname>
+                    </vCard:ORG>
+                  </rdf:li>
+                  <rdf:li rdf:parseType="Resource">
+                    <vCard:N rdf:parseType="Resource">
+                      <vCard:Family>Gillespie</vCard:Family>
+                      <vCard:Given>Marc E</vCard:Given>
+                    </vCard:N>
+                    <vCard:ORG rdf:parseType="Resource">
+                      <vCard:Orgname>NYU School of Medicine, Department of Biochemistry</vCard:Orgname>
+                    </vCard:ORG>
+                  </rdf:li>
+                  <rdf:li rdf:parseType="Resource">
+                    <vCard:N rdf:parseType="Resource">
+                      <vCard:Family>Matthews</vCard:Family>
+                      <vCard:Given>Lisa</vCard:Given>
+                    </vCard:N>
+                    <vCard:ORG rdf:parseType="Resource">
+                      <vCard:Orgname>NYU School of Medicine, Department of Biochemistry</vCard:Orgname>
+                    </vCard:ORG>
+                  </rdf:li>
+                </rdf:Bag>
+              </dc:creator>
+              <dcterms:created rdf:parseType="Resource">
+                <dcterms:W3CDTF>2020-08-14T20:26:00Z</dcterms:W3CDTF>
+              </dcterms:created>
+              <dcterms:modified rdf:parseType="Resource">
+                <dcterms:W3CDTF>2021-08-24T16:05:10Z</dcterms:W3CDTF>
+              </dcterms:modified>
+              <dcterms:modified rdf:parseType="Resource">
+                <dcterms:W3CDTF>2020-09-09T02:54:19Z</dcterms:W3CDTF>
+              </dcterms:modified>
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-HSA-9697423" />
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:isDescribedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/pubmed:15010527" />
+                  <rdf:li rdf:resource="https://identifiers.org/pubmed:22816037" />
+                  <rdf:li rdf:resource="https://identifiers.org/pubmed:15163706" />
+                  <rdf:li rdf:resource="https://identifiers.org/pubmed:15140961" />
+                </rdf:Bag>
+              </bqbiol:isDescribedBy>
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-HSA-9697423" />
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:occursIn>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/DOID:0080600" />
+                </rdf:Bag>
+              </bqbiol:occursIn>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference constant="true" id="speciesreference_9697423_input_9694785" sboTerm="SBO:0000010" species="species_9694785" stoichiometry="1" />
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" id="speciesreference_9697423_output_9694758" sboTerm="SBO:0000011" species="species_9694758" stoichiometry="1" />
+        </listOfProducts>
+      </reaction>
+      <reaction compartment="compartment_528865" fast="false" id="reaction_9685655" metaid="metaid_33" name="CTSL bind CTSL inhibitors" reversible="false">
+        <notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">Lysosomes play critical roles in human biology receiving, trafficking, processing, and degrading biological molecules from cellular processes such as endocytosis, phagocytosis, autophagy and secretion. Lysosomes house around sixty proteolytic enzymes, among them cathepsins. Cathepsins are involved in many processes involving cell death, protein degradation, post-translational modifications of proteins, extracellular matrix (ECM) remodeling, autophagy, and immune signaling. The early stages of the viral life cycle involve the cleavage of the viral spike protein by cathepsin L (CTSL) in late endosomes, facilitating viral RNA release to continue viral replication. Teicoplanin, a glycopeptide antibiotic used to treat Gram-positive bacterial infection, especially in Staphylococcal infections, was shown to have efficacy in vitro against Ebola Virus, MERS and SARS-CoV-1 (Zhou et al. 2016).Teicoplanin is thought to inhibit the low pH cleavage of the viral spike protein by CTSL in late endosomes thereby preventing the release of genomic viral RNA and the continuation of virus replication cycle (Baron et al. 2020). The target sequence that serve as the cleavage site for CTSL is conserved in the SARS-CoV-2 spike protein (Zhou et al. 2020 [preprint]). Further investigation is required to determine the therapeutic potential of teicoplanin in COVID-19 patients.Relacatib is an investigational drug trialed for the treatment of osteoporosis (Duong et al. 2016). It is a potent CTSK inhibitor but also shows activity against CTSL (Kumar et al. 2007) so could potentially be investigated for Covid-19 patients. The antileprotic drug clofazimine and the antituberculous drugs rifampicin and isoniazid have been shown to inhibit cathepsins B, H and L from purified goat and bovine brains (Kamboj et al. 2003).</p>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#metaid_33">
+              <dc:creator>
+                <rdf:Bag>
+                  <rdf:li rdf:parseType="Resource">
+                    <vCard:N rdf:parseType="Resource">
+                      <vCard:Family>Jassal</vCard:Family>
+                      <vCard:Given>Bijay</vCard:Given>
+                    </vCard:N>
+                    <vCard:ORG rdf:parseType="Resource">
+                      <vCard:Orgname>OICR</vCard:Orgname>
+                    </vCard:ORG>
+                  </rdf:li>
+                  <rdf:li rdf:parseType="Resource">
+                    <vCard:N rdf:parseType="Resource">
+                      <vCard:Family>Gillespie</vCard:Family>
+                      <vCard:Given>Marc E</vCard:Given>
+                    </vCard:N>
+                    <vCard:ORG rdf:parseType="Resource">
+                      <vCard:Orgname>NYU School of Medicine, Department of Biochemistry</vCard:Orgname>
+                    </vCard:ORG>
+                  </rdf:li>
+                  <rdf:li rdf:parseType="Resource">
+                    <vCard:N rdf:parseType="Resource">
+                      <vCard:Family>Gillespie</vCard:Family>
+                      <vCard:Given>Marc E</vCard:Given>
+                    </vCard:N>
+                    <vCard:ORG rdf:parseType="Resource">
+                      <vCard:Orgname>NYU School of Medicine, Department of Biochemistry</vCard:Orgname>
+                    </vCard:ORG>
+                  </rdf:li>
+                </rdf:Bag>
+              </dc:creator>
+              <dcterms:created rdf:parseType="Resource">
+                <dcterms:W3CDTF>2020-04-24T14:25:54Z</dcterms:W3CDTF>
+              </dcterms:created>
+              <dcterms:modified rdf:parseType="Resource">
+                <dcterms:W3CDTF>2020-09-09T04:23:26Z</dcterms:W3CDTF>
+              </dcterms:modified>
+              <dcterms:modified rdf:parseType="Resource">
+                <dcterms:W3CDTF>2020-09-09T02:54:19Z</dcterms:W3CDTF>
+              </dcterms:modified>
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-HSA-9685655" />
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:isDescribedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/pubmed:32179150" />
+                  <rdf:li rdf:resource="https://identifiers.org/pubmed:26953343" />
+                  <rdf:li rdf:resource="https://identifiers.org/pubmed:16962401" />
+                  <rdf:li rdf:resource="https://identifiers.org/pubmed:23105391" />
+                </rdf:Bag>
+              </bqbiol:isDescribedBy>
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-HSA-9685655" />
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:isDescribedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/pubmed:26335104" />
+                </rdf:Bag>
+              </bqbiol:isDescribedBy>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference constant="true" id="speciesreference_9685655_input_9686717" sboTerm="SBO:0000010" species="species_9686717" stoichiometry="1" />
+          <speciesReference constant="true" id="speciesreference_9685655_input_9693170" sboTerm="SBO:0000010" species="species_9693170" stoichiometry="1" />
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" id="speciesreference_9685655_output_9683316" sboTerm="SBO:0000011" species="species_9683316" stoichiometry="1" />
+        </listOfProducts>
+      </reaction>
+      <reaction compartment="compartment_876" fast="false" id="reaction_9699007" metaid="metaid_34" name="FURIN Mediated SARS-CoV-2 Spike Protein Cleavage and Endocytosis" reversible="false">
+        <notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">In a SARS-CoV-2 infection the cellular protease furin cleaves the spike protein at the S1/S2 site and that cleavage is essential for S-protein-mediated cell-cell fusion and entry into human lung cells (Hoffman et al. 2020). Furin is associated with the plasma membrane of the host cell and mediates the hydrolytic cleavage of SARS-CoV-2 Spike (S) protein component of the viral membrane-associate S3:M:E:encapsidated SARS coronavirus genomic RNA: 7a:O-glycosyl 3a tetramer complex associated with ACE2.</p>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#metaid_34">
+              <dc:creator>
+                <rdf:Bag>
+                  <rdf:li rdf:parseType="Resource">
+                    <vCard:N rdf:parseType="Resource">
+                      <vCard:Family>Gillespie</vCard:Family>
+                      <vCard:Given>Marc E</vCard:Given>
+                    </vCard:N>
+                    <vCard:ORG rdf:parseType="Resource">
+                      <vCard:Orgname>NYU School of Medicine, Department of Biochemistry</vCard:Orgname>
+                    </vCard:ORG>
+                  </rdf:li>
+                  <rdf:li rdf:parseType="Resource">
+                    <vCard:N rdf:parseType="Resource">
+                      <vCard:Family>Gillespie</vCard:Family>
+                      <vCard:Given>Marc E</vCard:Given>
+                    </vCard:N>
+                    <vCard:ORG rdf:parseType="Resource">
+                      <vCard:Orgname>NYU School of Medicine, Department of Biochemistry</vCard:Orgname>
+                    </vCard:ORG>
+                  </rdf:li>
+                  <rdf:li rdf:parseType="Resource">
+                    <vCard:N rdf:parseType="Resource">
+                      <vCard:Family>Orlic-Milacic</vCard:Family>
+                      <vCard:Given>Marija</vCard:Given>
+                    </vCard:N>
+                    <vCard:ORG rdf:parseType="Resource">
+                      <vCard:Orgname>OICR</vCard:Orgname>
+                    </vCard:ORG>
+                  </rdf:li>
+                </rdf:Bag>
+              </dc:creator>
+              <dcterms:created rdf:parseType="Resource">
+                <dcterms:W3CDTF>2020-09-05T04:39:44Z</dcterms:W3CDTF>
+              </dcterms:created>
+              <dcterms:modified rdf:parseType="Resource">
+                <dcterms:W3CDTF>2021-07-15T15:36:45Z</dcterms:W3CDTF>
+              </dcterms:modified>
+              <dcterms:modified rdf:parseType="Resource">
+                <dcterms:W3CDTF>2020-09-09T02:54:19Z</dcterms:W3CDTF>
+              </dcterms:modified>
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-HSA-9699007" />
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:isDescribedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/pubmed:32532959" />
+                  <rdf:li rdf:resource="https://identifiers.org/pubmed:32362314" />
+                  <rdf:li rdf:resource="https://identifiers.org/pubmed:21068237" />
+                </rdf:Bag>
+              </bqbiol:isDescribedBy>
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-HSA-9699007" />
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/GO:0004252" />
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.19.1" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.1" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.10" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.102" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.20" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.21" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.22" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.26" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.27" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.34" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.35" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.36" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.38" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.39" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.4" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.41" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.42" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.43" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.45" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.46" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.47" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.48" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.5" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.53" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.54" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.59" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.6" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.61" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.62" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.68" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.69" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.7" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.71" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.73" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.75" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.78" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.79" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.83" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.87" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.88" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.89" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.9" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.92" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.93" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.94" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.24.3" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.24.34" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.24.7" />
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:occursIn>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/DOID:0080600" />
+                </rdf:Bag>
+              </bqbiol:occursIn>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference constant="true" id="speciesreference_9699007_input_9694785" sboTerm="SBO:0000010" species="species_9694785" stoichiometry="1" />
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" id="speciesreference_9699007_output_9698958" sboTerm="SBO:0000011" species="species_9698958" stoichiometry="1" />
+          <speciesReference constant="true" id="speciesreference_9699007_output_9694585" sboTerm="SBO:0000011" species="species_9694585" stoichiometry="1" />
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference id="modifierspeciesreference_9699007_catalyst_2159856" sboTerm="SBO:0000013" species="species_2159856" />
+        </listOfModifiers>
+      </reaction>
+      <reaction compartment="compartment_70101" fast="false" id="reaction_9694723" metaid="metaid_35" name="Uncoating of SARS-CoV-2 Genome" reversible="false">
+        <notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">This COVID-19 event has been created by a combination of computational inference (see https://reactome.org/documentation/inferred-events) from SARS-CoV-1 data and manual curation, as described in the summation for the overall SARS-CoV-2 infection pathway.The viral nucleocapsid complex, released into the host cell cytosol, dissociates to release the viral RNA genome (Fung and Liu 2019).</p>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#metaid_35">
+              <dc:creator>
+                <rdf:Bag>
+                  <rdf:li rdf:parseType="Resource">
+                    <vCard:N rdf:parseType="Resource">
+                      <vCard:Family>Cook</vCard:Family>
+                      <vCard:Given>Justin</vCard:Given>
+                    </vCard:N>
+                    <vCard:ORG rdf:parseType="Resource">
+                      <vCard:Orgname>OICR</vCard:Orgname>
+                    </vCard:ORG>
+                  </rdf:li>
+                  <rdf:li rdf:parseType="Resource">
+                    <vCard:N rdf:parseType="Resource">
+                      <vCard:Family>Gillespie</vCard:Family>
+                      <vCard:Given>Marc E</vCard:Given>
+                    </vCard:N>
+                    <vCard:ORG rdf:parseType="Resource">
+                      <vCard:Orgname>NYU School of Medicine, Department of Biochemistry</vCard:Orgname>
+                    </vCard:ORG>
+                  </rdf:li>
+                  <rdf:li rdf:parseType="Resource">
+                    <vCard:N rdf:parseType="Resource">
+                      <vCard:Family>Gillespie</vCard:Family>
+                      <vCard:Given>Marc E</vCard:Given>
+                    </vCard:N>
+                    <vCard:ORG rdf:parseType="Resource">
+                      <vCard:Orgname>NYU School of Medicine, Department of Biochemistry</vCard:Orgname>
+                    </vCard:ORG>
+                  </rdf:li>
+                </rdf:Bag>
+              </dc:creator>
+              <dcterms:created rdf:parseType="Resource">
+                <dcterms:W3CDTF>2020-07-07T13:25:06Z</dcterms:W3CDTF>
+              </dcterms:created>
+              <dcterms:modified rdf:parseType="Resource">
+                <dcterms:W3CDTF>2020-09-09T04:23:26Z</dcterms:W3CDTF>
+              </dcterms:modified>
+              <dcterms:modified rdf:parseType="Resource">
+                <dcterms:W3CDTF>2020-09-09T02:54:19Z</dcterms:W3CDTF>
+              </dcterms:modified>
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-HSA-9694723" />
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:isDescribedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/pubmed:31226023" />
+                </rdf:Bag>
+              </bqbiol:isDescribedBy>
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-HSA-9694723" />
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:occursIn>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/DOID:0080600" />
+                </rdf:Bag>
+              </bqbiol:occursIn>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference constant="true" id="speciesreference_9694723_input_9694461" sboTerm="SBO:0000010" species="species_9694461" stoichiometry="1" />
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" id="speciesreference_9694723_output_9694702" sboTerm="SBO:0000011" species="species_9694702" stoichiometry="150" />
+          <speciesReference constant="true" id="speciesreference_9694723_output_9694393" sboTerm="SBO:0000011" species="species_9694393" stoichiometry="1" />
+        </listOfProducts>
+      </reaction>
+      <reaction compartment="compartment_24337" fast="false" id="reaction_9694689" metaid="metaid_36" name="Fusion and Release of SARS-CoV-2 Nucleocapsid" reversible="false">
+        <notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">This COVID-19 event has been created by a combination of computational inference (see https://reactome.org/documentation/inferred-events) from SARS-CoV-1 data and manual curation, as described in the summation for the overall SARS-CoV-2 infection pathway.The SARS-CoV-2 nucleocapsid is released from the host cell endosome into the cytosol. Molecular details of this step are not well worked out. Studies of the infection of the human cultured cells with HCoV-229E coronavirus established a requirement for VCP (transitional endoplasmic reticulum ATPase) protein function for release to occur (Wong et al. 2015). A similar requirement for VCP involvement in SARS-CoV-2 nucleocapsid release is inferred here.</p>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#metaid_36">
+              <dc:creator>
+                <rdf:Bag>
+                  <rdf:li rdf:parseType="Resource">
+                    <vCard:N rdf:parseType="Resource">
+                      <vCard:Family>Cook</vCard:Family>
+                      <vCard:Given>Justin</vCard:Given>
+                    </vCard:N>
+                    <vCard:ORG rdf:parseType="Resource">
+                      <vCard:Orgname>OICR</vCard:Orgname>
+                    </vCard:ORG>
+                  </rdf:li>
+                  <rdf:li rdf:parseType="Resource">
+                    <vCard:N rdf:parseType="Resource">
+                      <vCard:Family>Gillespie</vCard:Family>
+                      <vCard:Given>Marc E</vCard:Given>
+                    </vCard:N>
+                    <vCard:ORG rdf:parseType="Resource">
+                      <vCard:Orgname>NYU School of Medicine, Department of Biochemistry</vCard:Orgname>
+                    </vCard:ORG>
+                  </rdf:li>
+                  <rdf:li rdf:parseType="Resource">
+                    <vCard:N rdf:parseType="Resource">
+                      <vCard:Family>Gillespie</vCard:Family>
+                      <vCard:Given>Marc E</vCard:Given>
+                    </vCard:N>
+                    <vCard:ORG rdf:parseType="Resource">
+                      <vCard:Orgname>NYU School of Medicine, Department of Biochemistry</vCard:Orgname>
+                    </vCard:ORG>
+                  </rdf:li>
+                </rdf:Bag>
+              </dc:creator>
+              <dcterms:created rdf:parseType="Resource">
+                <dcterms:W3CDTF>2020-07-07T13:25:06Z</dcterms:W3CDTF>
+              </dcterms:created>
+              <dcterms:modified rdf:parseType="Resource">
+                <dcterms:W3CDTF>2020-09-09T04:23:26Z</dcterms:W3CDTF>
+              </dcterms:modified>
+              <dcterms:modified rdf:parseType="Resource">
+                <dcterms:W3CDTF>2020-09-09T02:54:19Z</dcterms:W3CDTF>
+              </dcterms:modified>
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-HSA-9694689" />
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:isDescribedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/pubmed:26311884" />
+                </rdf:Bag>
+              </bqbiol:isDescribedBy>
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-HSA-9694689" />
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:occursIn>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/DOID:0080600" />
+                </rdf:Bag>
+              </bqbiol:occursIn>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference constant="true" id="speciesreference_9694689_input_9694585" sboTerm="SBO:0000010" species="species_9694585" stoichiometry="1" />
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" id="speciesreference_9694689_output_9694461" sboTerm="SBO:0000011" species="species_9694461" stoichiometry="1" />
+          <speciesReference constant="true" id="speciesreference_9694689_output_9694534" sboTerm="SBO:0000011" species="species_9694534" stoichiometry="1" />
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference id="modifierspeciesreference_9694689_positiveregulator_1181251" sboTerm="SBO:0000459" species="species_1181251">
+            <notes>
+              <p xmlns="http://www.w3.org/1999/xhtml">This describes an Event/CatalystActivity that is positively regulated by the Regulator (e.g., allosteric activation)</p>
+            </notes>
+          </modifierSpeciesReference>
+        </listOfModifiers>
+      </reaction>
+      <reaction compartment="compartment_876" fast="false" id="reaction_9698988" metaid="metaid_37" name="Direct Host Cell Membrane Membrane Fusion and Release of SARS-CoV-2 Nucleocapsid" reversible="false">
+        <notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">SARS-CoV-2 virions attached to the host cell surface via a complex involving viral spike (S) protein and host angiotensin-converting enzyme 2 (ACE2) are inferred to undergo endocytosis. In the case of SARE-CoV-2 it is apparent that the spike protein undergoes cleavage in some cases and fuses directly with the plasma membrane. This cleavage is induced by FURIN or TMPRSS. The cellular protease furin cleaves the spike protein at the S1/S2 site and that cleavage is essential for S-protein-mediated cell-cell fusion and entry into human lung cells (Hoffman et al. 2020). Transmembrane protease serine 2 (TMPRSS2), associated with the plasma membrane of the host cell, mediates the hydrolytic cleavage of SARS-CoV-2 Spike (S) protein component of the viral membrane-associate S3:M:E:encapsidated SARS coronavirus genomic RNA: 7a:O-glycosyl 3a tetramer complex associated with ACE2 (Matsuyama et al. 2010; Glowacka et al. 2011; Shulla et al. 2011). The uncoated virion nucleocapsid is released directly into the cytoplasm.</p>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#metaid_37">
+              <dc:creator>
+                <rdf:Bag>
+                  <rdf:li rdf:parseType="Resource">
+                    <vCard:N rdf:parseType="Resource">
+                      <vCard:Family>Gillespie</vCard:Family>
+                      <vCard:Given>Marc E</vCard:Given>
+                    </vCard:N>
+                    <vCard:ORG rdf:parseType="Resource">
+                      <vCard:Orgname>NYU School of Medicine, Department of Biochemistry</vCard:Orgname>
+                    </vCard:ORG>
+                  </rdf:li>
+                  <rdf:li rdf:parseType="Resource">
+                    <vCard:N rdf:parseType="Resource">
+                      <vCard:Family>Gillespie</vCard:Family>
+                      <vCard:Given>Marc E</vCard:Given>
+                    </vCard:N>
+                    <vCard:ORG rdf:parseType="Resource">
+                      <vCard:Orgname>NYU School of Medicine, Department of Biochemistry</vCard:Orgname>
+                    </vCard:ORG>
+                  </rdf:li>
+                  <rdf:li rdf:parseType="Resource">
+                    <vCard:N rdf:parseType="Resource">
+                      <vCard:Family>Matthews</vCard:Family>
+                      <vCard:Given>Lisa</vCard:Given>
+                    </vCard:N>
+                    <vCard:ORG rdf:parseType="Resource">
+                      <vCard:Orgname>NYU School of Medicine, Department of Biochemistry</vCard:Orgname>
+                    </vCard:ORG>
+                  </rdf:li>
+                </rdf:Bag>
+              </dc:creator>
+              <dcterms:created rdf:parseType="Resource">
+                <dcterms:W3CDTF>2020-09-05T04:39:44Z</dcterms:W3CDTF>
+              </dcterms:created>
+              <dcterms:modified rdf:parseType="Resource">
+                <dcterms:W3CDTF>2020-09-10T16:10:52Z</dcterms:W3CDTF>
+              </dcterms:modified>
+              <dcterms:modified rdf:parseType="Resource">
+                <dcterms:W3CDTF>2020-09-09T02:54:19Z</dcterms:W3CDTF>
+              </dcterms:modified>
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-HSA-9698988" />
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:isDescribedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/pubmed:32362314" />
+                  <rdf:li rdf:resource="https://identifiers.org/pubmed:21068237" />
+                  <rdf:li rdf:resource="https://identifiers.org/pubmed:15474033" />
+                  <rdf:li rdf:resource="https://identifiers.org/pubmed:21325420" />
+                  <rdf:li rdf:resource="https://identifiers.org/pubmed:32532959" />
+                </rdf:Bag>
+              </bqbiol:isDescribedBy>
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-HSA-9698988" />
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:isDescribedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/pubmed:20926566" />
+                </rdf:Bag>
+              </bqbiol:isDescribedBy>
+              <bqbiol:occursIn>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/DOID:0080600" />
+                </rdf:Bag>
+              </bqbiol:occursIn>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference constant="true" id="speciesreference_9698988_input_9694785" sboTerm="SBO:0000010" species="species_9694785" stoichiometry="1" />
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" id="speciesreference_9698988_output_9698997" sboTerm="SBO:0000011" species="species_9698997" stoichiometry="1" />
+          <speciesReference constant="true" id="speciesreference_9698988_output_9683480" sboTerm="SBO:0000011" species="species_9683480" stoichiometry="1" />
+          <speciesReference constant="true" id="speciesreference_9698988_output_9694461" sboTerm="SBO:0000011" species="species_9694461" stoichiometry="1" />
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference id="modifierspeciesreference_9698988_positiveregulator_9686707" sboTerm="SBO:0000459" species="species_9686707">
+            <notes>
+              <p xmlns="http://www.w3.org/1999/xhtml">This describes an Event/CatalystActivity that is positively regulated by the Regulator (e.g., allosteric activation)</p>
+            </notes>
+          </modifierSpeciesReference>
+          <modifierSpeciesReference id="modifierspeciesreference_9698988_positiveregulator_2159856" sboTerm="SBO:0000459" species="species_2159856">
+            <notes>
+              <p xmlns="http://www.w3.org/1999/xhtml">This describes an Event/CatalystActivity that is positively regulated by the Regulator (e.g., allosteric activation)</p>
+            </notes>
+          </modifierSpeciesReference>
+        </listOfModifiers>
+      </reaction>
+      <reaction compartment="compartment_528865" fast="false" id="reaction_9683467" metaid="metaid_38" name="CQ, HCQ are protonated to CQ2+, HCQ2+" reversible="false">
+        <notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">Chloroquine (CQ) and hydroxychloroquine (HCQ) are diprotic weak bases that can exist in both protonated and unprotonated forms. Unprotonated CQ or HCQ can diffuse freely and rapidly across the membranes of cells and organelles to acidic cytoplasmic vesicles (late endosomes and lysosomes). Agents that have this ability are known as lysosomotropic agents. Once protonated, CQ2+ or HCQ2+ are trapped in the acidic lumen of these vesicles. This leads to an irreversible accumulation of CQ or HCQ in acidic vesicles to concentrations as much as 100 fold over cytosolic ones and to an elevation of vesicle pH due to trapping of H+ ions by CQ or HCQ. Thus, CQ analogues interfere with endosomal and lysosomal acidification, which in turn inhibits proteolysis, chemotaxis, phagocytosis and antigen presentation. As a result, cells are not able to proceed with endocytosis, exosome release and phagolysosomal fusion in an orderly manner (Foley and Tilley 1998, Yang and Shen 2020). In vitro, these endosomal acidification fusion inhibitors block cellular infection by a clinical isolate of SARS-CoV-2 (Wang et al. 2020, Hu et al. 2020).</p>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#metaid_38">
+              <dc:creator>
+                <rdf:Bag>
+                  <rdf:li rdf:parseType="Resource">
+                    <vCard:N rdf:parseType="Resource">
+                      <vCard:Family>Jassal</vCard:Family>
+                      <vCard:Given>Bijay</vCard:Given>
+                    </vCard:N>
+                    <vCard:ORG rdf:parseType="Resource">
+                      <vCard:Orgname>OICR</vCard:Orgname>
+                    </vCard:ORG>
+                  </rdf:li>
+                  <rdf:li rdf:parseType="Resource">
+                    <vCard:N rdf:parseType="Resource">
+                      <vCard:Family>Gillespie</vCard:Family>
+                      <vCard:Given>Marc E</vCard:Given>
+                    </vCard:N>
+                    <vCard:ORG rdf:parseType="Resource">
+                      <vCard:Orgname>NYU School of Medicine, Department of Biochemistry</vCard:Orgname>
+                    </vCard:ORG>
+                  </rdf:li>
+                  <rdf:li rdf:parseType="Resource">
+                    <vCard:N rdf:parseType="Resource">
+                      <vCard:Family>Gillespie</vCard:Family>
+                      <vCard:Given>Marc E</vCard:Given>
+                    </vCard:N>
+                    <vCard:ORG rdf:parseType="Resource">
+                      <vCard:Orgname>NYU School of Medicine, Department of Biochemistry</vCard:Orgname>
+                    </vCard:ORG>
+                  </rdf:li>
+                </rdf:Bag>
+              </dc:creator>
+              <dcterms:created rdf:parseType="Resource">
+                <dcterms:W3CDTF>2020-04-16T14:50:50Z</dcterms:W3CDTF>
+              </dcterms:created>
+              <dcterms:modified rdf:parseType="Resource">
+                <dcterms:W3CDTF>2020-09-09T04:23:26Z</dcterms:W3CDTF>
+              </dcterms:modified>
+              <dcterms:modified rdf:parseType="Resource">
+                <dcterms:W3CDTF>2020-09-09T02:54:19Z</dcterms:W3CDTF>
+              </dcterms:modified>
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-HSA-9683467" />
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:isDescribedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/pubmed:25693996" />
+                  <rdf:li rdf:resource="https://identifiers.org/pubmed:16115318" />
+                  <rdf:li rdf:resource="https://identifiers.org/pubmed:28596841" />
+                  <rdf:li rdf:resource="https://identifiers.org/pubmed:32145363" />
+                  <rdf:li rdf:resource="https://identifiers.org/pubmed:9719345" />
+                  <rdf:li rdf:resource="https://identifiers.org/pubmed:32226290" />
+                </rdf:Bag>
+              </bqbiol:isDescribedBy>
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-HSA-9683467" />
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference constant="true" id="speciesreference_9683467_input_5228597" sboTerm="SBO:0000010" species="species_5228597" stoichiometry="2" />
+          <speciesReference constant="true" id="speciesreference_9683467_input_9685610" sboTerm="SBO:0000010" species="species_9685610" stoichiometry="1" />
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" id="speciesreference_9683467_output_9685618" sboTerm="SBO:0000011" species="species_9685618" stoichiometry="1" />
+        </listOfProducts>
+      </reaction>
+      <reaction compartment="compartment_70101" fast="false" id="reaction_9683478" metaid="metaid_39" name="CQ, HCQ diffuses from cytosol to endocytic vesicle lumen" reversible="false">
+        <notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">Unprotonated chloroquine (CQ) and hydroxychloroquine (HCQ) can both diffuse freely and rapidly across the membranes of cells and organelles (Chinappi et al. 2010).</p>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#metaid_39">
+              <dc:creator>
+                <rdf:Bag>
+                  <rdf:li rdf:parseType="Resource">
+                    <vCard:N rdf:parseType="Resource">
+                      <vCard:Family>Jassal</vCard:Family>
+                      <vCard:Given>Bijay</vCard:Given>
+                    </vCard:N>
+                    <vCard:ORG rdf:parseType="Resource">
+                      <vCard:Orgname>OICR</vCard:Orgname>
+                    </vCard:ORG>
+                  </rdf:li>
+                  <rdf:li rdf:parseType="Resource">
+                    <vCard:N rdf:parseType="Resource">
+                      <vCard:Family>Gillespie</vCard:Family>
+                      <vCard:Given>Marc E</vCard:Given>
+                    </vCard:N>
+                    <vCard:ORG rdf:parseType="Resource">
+                      <vCard:Orgname>NYU School of Medicine, Department of Biochemistry</vCard:Orgname>
+                    </vCard:ORG>
+                  </rdf:li>
+                  <rdf:li rdf:parseType="Resource">
+                    <vCard:N rdf:parseType="Resource">
+                      <vCard:Family>Gillespie</vCard:Family>
+                      <vCard:Given>Marc E</vCard:Given>
+                    </vCard:N>
+                    <vCard:ORG rdf:parseType="Resource">
+                      <vCard:Orgname>NYU School of Medicine, Department of Biochemistry</vCard:Orgname>
+                    </vCard:ORG>
+                  </rdf:li>
+                </rdf:Bag>
+              </dc:creator>
+              <dcterms:created rdf:parseType="Resource">
+                <dcterms:W3CDTF>2020-04-16T14:50:50Z</dcterms:W3CDTF>
+              </dcterms:created>
+              <dcterms:modified rdf:parseType="Resource">
+                <dcterms:W3CDTF>2020-09-09T04:23:26Z</dcterms:W3CDTF>
+              </dcterms:modified>
+              <dcterms:modified rdf:parseType="Resource">
+                <dcterms:W3CDTF>2020-09-09T02:54:19Z</dcterms:W3CDTF>
+              </dcterms:modified>
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-HSA-9683478" />
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:isDescribedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/pubmed:21124966" />
+                </rdf:Bag>
+              </bqbiol:isDescribedBy>
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-HSA-9683478" />
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference constant="true" id="speciesreference_9683478_input_9685614" sboTerm="SBO:0000010" species="species_9685614" stoichiometry="1" />
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" id="speciesreference_9683478_output_9685610" sboTerm="SBO:0000011" species="species_9685610" stoichiometry="1" />
+        </listOfProducts>
+      </reaction>
+      <reaction compartment="compartment_876" fast="false" id="reaction_9694661" metaid="metaid_40" name="TMPRSS2 Mediated SARS-CoV-2 Spike Protein Cleavage and Endocytosis" reversible="false">
+        <notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">This COVID-19 event has been created by a combination of computational inference (see https://reactome.org/documentation/inferred-events) from SARS-CoV-1 data and manual curation, as described in the summation for the overall SARS-CoV-2 infection pathway.Transmembrane protease serine 2 (TMPRSS2), associated with the plasma membrane of the host cell, mediates the hydrolytic cleavage of SARS-CoV-2 Spike (S) protein component of the viral membrane-associate S3:M:E:encapsidated SARS coronavirus genomic RNA: 7a:O-glycosyl 3a tetramer complex associated with ACE2 (Matsuyama et al. 2010; Glowacka et al. 2011; Shulla et al. 2011).</p>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#metaid_40">
+              <dc:creator>
+                <rdf:Bag>
+                  <rdf:li rdf:parseType="Resource">
+                    <vCard:N rdf:parseType="Resource">
+                      <vCard:Family>Cook</vCard:Family>
+                      <vCard:Given>Justin</vCard:Given>
+                    </vCard:N>
+                    <vCard:ORG rdf:parseType="Resource">
+                      <vCard:Orgname>OICR</vCard:Orgname>
+                    </vCard:ORG>
+                  </rdf:li>
+                  <rdf:li rdf:parseType="Resource">
+                    <vCard:N rdf:parseType="Resource">
+                      <vCard:Family>Gillespie</vCard:Family>
+                      <vCard:Given>Marc E</vCard:Given>
+                    </vCard:N>
+                    <vCard:ORG rdf:parseType="Resource">
+                      <vCard:Orgname>NYU School of Medicine, Department of Biochemistry</vCard:Orgname>
+                    </vCard:ORG>
+                  </rdf:li>
+                  <rdf:li rdf:parseType="Resource">
+                    <vCard:N rdf:parseType="Resource">
+                      <vCard:Family>Gillespie</vCard:Family>
+                      <vCard:Given>Marc E</vCard:Given>
+                    </vCard:N>
+                    <vCard:ORG rdf:parseType="Resource">
+                      <vCard:Orgname>NYU School of Medicine, Department of Biochemistry</vCard:Orgname>
+                    </vCard:ORG>
+                  </rdf:li>
+                </rdf:Bag>
+              </dc:creator>
+              <dcterms:created rdf:parseType="Resource">
+                <dcterms:W3CDTF>2020-07-07T13:25:06Z</dcterms:W3CDTF>
+              </dcterms:created>
+              <dcterms:modified rdf:parseType="Resource">
+                <dcterms:W3CDTF>2020-09-09T04:23:26Z</dcterms:W3CDTF>
+              </dcterms:modified>
+              <dcterms:modified rdf:parseType="Resource">
+                <dcterms:W3CDTF>2020-09-09T02:54:19Z</dcterms:W3CDTF>
+              </dcterms:modified>
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-HSA-9694661" />
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:isDescribedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/pubmed:21068237" />
+                  <rdf:li rdf:resource="https://identifiers.org/pubmed:20926566" />
+                  <rdf:li rdf:resource="https://identifiers.org/pubmed:21325420" />
+                  <rdf:li rdf:resource="https://identifiers.org/pubmed:32532959" />
+                </rdf:Bag>
+              </bqbiol:isDescribedBy>
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-HSA-9694661" />
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/GO:0004252" />
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.19.1" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.1" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.10" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.102" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.20" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.21" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.22" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.26" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.27" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.34" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.35" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.36" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.38" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.39" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.4" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.41" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.42" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.43" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.45" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.46" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.47" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.48" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.5" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.53" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.54" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.59" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.6" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.61" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.62" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.68" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.69" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.7" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.71" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.73" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.75" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.78" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.79" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.83" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.87" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.88" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.89" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.9" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.92" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.93" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.21.94" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.24.3" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.24.34" />
+                  <rdf:li rdf:resource="https://identifiers.org/ec-code:3.4.24.7" />
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:occursIn>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/DOID:0080600" />
+                </rdf:Bag>
+              </bqbiol:occursIn>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference constant="true" id="speciesreference_9694661_input_9694785" sboTerm="SBO:0000010" species="species_9694785" stoichiometry="1" />
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" id="speciesreference_9694661_output_9698958" sboTerm="SBO:0000011" species="species_9698958" stoichiometry="1" />
+          <speciesReference constant="true" id="speciesreference_9694661_output_9694585" sboTerm="SBO:0000011" species="species_9694585" stoichiometry="1" />
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference id="modifierspeciesreference_9694661_catalyst_9686707" sboTerm="SBO:0000013" species="species_9686707" />
+          <modifierSpeciesReference id="modifierspeciesreference_9694661_negativeregulator_9681532" sboTerm="SBO:0000020" species="species_9681532">
+            <notes>
+              <p xmlns="http://www.w3.org/1999/xhtml">This describes an Event/CatalystActivity that is negatively regulated by the Regulator (e.g., allosteric inhibition, competitive inhibition</p>
+            </notes>
+          </modifierSpeciesReference>
+        </listOfModifiers>
+      </reaction>
+      <reaction compartment="compartment_876" fast="false" id="reaction_9694579" metaid="metaid_41" name="Spike glycoprotein of SARS-CoV-2 binds ACE2 on host cell" reversible="false">
+        <notes>
+          <p xmlns="http://www.w3.org/1999/xhtml">This COVID-19 event has been created by a combination of computational inference (see https://reactome.org/documentation/inferred-events) from SARS-CoV-1 data and manual curation, as described in the summation for the overall SARS-CoV-2 infection pathway.SARS-CoV-2 spike (S3a) protein, as a component of the S3:M:E:encapsidated SARS coronavirus genomic RNA: 7a:O-glycosyl 3a tetramer complex, binds to glycosylated angiotensin converting enzyme 2 (ACE2) associated with the human host cell plasma membrane. Structural studies of the interaction between human ACE2 protein and the receptor-binding domain of S3a protein have identified key amino acid residues in both proteins responsible for their high-affinity interaction. These residues may be a key factor determining severity (and possibly human-to-human transmission) of SARS-CoV-2 (Li et al. 2003, 2005). The roles of S protein in viral binding to the host cell membrane and fusion of viral and host cell membranes and thus the central role of S protein in determining the host range and tissue tropisms of the virus are reviewed by Belouzard et al. (2012).</p>
+        </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#metaid_41">
+              <dc:creator>
+                <rdf:Bag>
+                  <rdf:li rdf:parseType="Resource">
+                    <vCard:N rdf:parseType="Resource">
+                      <vCard:Family>Cook</vCard:Family>
+                      <vCard:Given>Justin</vCard:Given>
+                    </vCard:N>
+                    <vCard:ORG rdf:parseType="Resource">
+                      <vCard:Orgname>OICR</vCard:Orgname>
+                    </vCard:ORG>
+                  </rdf:li>
+                  <rdf:li rdf:parseType="Resource">
+                    <vCard:N rdf:parseType="Resource">
+                      <vCard:Family>Gillespie</vCard:Family>
+                      <vCard:Given>Marc E</vCard:Given>
+                    </vCard:N>
+                    <vCard:ORG rdf:parseType="Resource">
+                      <vCard:Orgname>NYU School of Medicine, Department of Biochemistry</vCard:Orgname>
+                    </vCard:ORG>
+                  </rdf:li>
+                  <rdf:li rdf:parseType="Resource">
+                    <vCard:N rdf:parseType="Resource">
+                      <vCard:Family>Gillespie</vCard:Family>
+                      <vCard:Given>Marc E</vCard:Given>
+                    </vCard:N>
+                    <vCard:ORG rdf:parseType="Resource">
+                      <vCard:Orgname>NYU School of Medicine, Department of Biochemistry</vCard:Orgname>
+                    </vCard:ORG>
+                  </rdf:li>
+                </rdf:Bag>
+              </dc:creator>
+              <dcterms:created rdf:parseType="Resource">
+                <dcterms:W3CDTF>2020-07-07T13:25:06Z</dcterms:W3CDTF>
+              </dcterms:created>
+              <dcterms:modified rdf:parseType="Resource">
+                <dcterms:W3CDTF>2020-09-09T04:23:26Z</dcterms:W3CDTF>
+              </dcterms:modified>
+              <dcterms:modified rdf:parseType="Resource">
+                <dcterms:W3CDTF>2020-09-09T02:54:19Z</dcterms:W3CDTF>
+              </dcterms:modified>
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-HSA-9694579" />
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:isDescribedBy>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/pubmed:14647384" />
+                  <rdf:li rdf:resource="https://identifiers.org/pubmed:16166518" />
+                  <rdf:li rdf:resource="https://identifiers.org/pubmed:32125455" />
+                  <rdf:li rdf:resource="https://identifiers.org/pubmed:22816037" />
+                </rdf:Bag>
+              </bqbiol:isDescribedBy>
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/reactome:R-HSA-9694579" />
+                </rdf:Bag>
+              </bqbiol:is>
+              <bqbiol:occursIn>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/DOID:0080600" />
+                </rdf:Bag>
+              </bqbiol:occursIn>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+        <listOfReactants>
+          <speciesReference constant="true" id="speciesreference_9694579_input_9683480" sboTerm="SBO:0000010" species="species_9683480" stoichiometry="1" />
+          <speciesReference constant="true" id="speciesreference_9694579_input_9694500" sboTerm="SBO:0000010" species="species_9694500" stoichiometry="1" />
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" id="speciesreference_9694579_output_9694785" sboTerm="SBO:0000011" species="species_9694785" stoichiometry="1" />
+        </listOfProducts>
+      </reaction>
+    </listOfReactions>
+  </model>
+</sbml>

@@ -19,6 +19,8 @@ var svg = d3.select("svg"),
  */
  var color = d3.scaleOrdinal(d3.schemeCategory20);
 
+ //var legend = d3.legend
+
 /*
  * define simulation forces 
 */
@@ -37,9 +39,9 @@ function graph(data){
   var link = svg.append("g")
       .attr("class", "links")
     .selectAll("line")
-    .data(data.links)
+    .data(data.edges)
     .enter().append("line")
-      //.attr("stroke-width", function(d) { return Math.sqrt(d.value); });
+      .attr("stroke-width", function(d) { return Math.sqrt(3); });
   // Nodes
   var node = svg.append("g")
       .attr("class", "nodes")
@@ -74,14 +76,14 @@ function graph(data){
     .on("tick", ticked);
 
   simulation.force("link")
-      .links(data.links);
+      .links(data.edges);
   
   function ticked() {
     link
-        .attr("x1", function(d) { return d.source.x; })
-        .attr("y1", function(d) { return d.source.y; })
-        .attr("x2", function(d) { return d.target.x; })
-        .attr("y2", function(d) { return d.target.y; });
+      .attr("x1", function(d) { return d.source.x; })
+      .attr("y1", function(d) { return d.source.y; })
+      .attr("x2", function(d) { return d.target.x; })
+      .attr("y2", function(d) { return d.target.y; });
 
     node
         .attr("transform", function(d) {

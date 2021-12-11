@@ -38,5 +38,6 @@ class Network {
 const processing = (data) => {
     // Create the network object with data from JSON
     // TODO  
+    let network = new Network(data);
     return network;
 }

@@ -26,28 +26,27 @@ var svg = d3.select("svg"),
 */
 
 var simulation = d3.forceSimulation()
-  //.force("forceX", d3.forceX().strength(.1).x(width * .1))
-  //.force("forceY", d3.forceY().strength(.1).y(height * .1))
   .force("link", d3.forceLink().id(function(d) { return d.id; }))
-  .force("charge", d3.forceManyBody()) //.strength(-5))
+  .force("charge", d3.forceManyBody()) 
   .force("center", d3.forceCenter(width / 2, height / 2))
 
 /**
  * drawing function   
 */
 
-var radius = 5;
+var g = svg.append("g")
+    .attr("class", "everything");
 
 function graph(data){
   // Edges
-  var link = svg.append("g")
+  var link = g.append("g")
       .attr("class", "links")
     .selectAll("line")
     .data(data.edges)
     .enter().append("line")
       .attr("stroke-width", function(d) { return Math.sqrt(3); });
   // Nodes
-  var node = svg.append("g")
+  var node = g.append("g")
       .attr("class", "nodes")
     .selectAll("g")
     .data(data.nodes)
@@ -57,13 +56,19 @@ function graph(data){
     .attr("r", 5)
     .attr("fill", function(d) { return color(d.compartment.name); });
 
-  // Create a drag handler and append it to the node object instead
-  var drag_handler = d3.drag()
-      .on("start", dragstarted)
-      .on("drag", dragged)
-      .on("end", dragended);
+//     // Create a drag handler and append it to the node object instead
+//   var drag_handler = d3.drag()
+//     .on("start", dragstarted)
+//     .on("drag", dragged)
+//     .on("end", dragended);
 
-  drag_handler(node);
+    drag_handler(node);
+
+    // //add zoom capabilities 
+    // var zoom_handler = d3.zoom()
+    // .on("zoom", zoom_actions);
+
+    zoom_handler(svg); 
 
   var lables = node.append("text")
       .text(function(d) {
@@ -115,19 +120,25 @@ function dragstarted(d) {
     if (!d3.event.active) simulation.alphaTarget(0);
     d.fx = null;
     d.fy = null;
-  }
-
-/**
- * Zoom option 
- */
-
-//create zoom handler 
-var zoom_handler = d3.zoom()
-    .on("zoom", zoom_actions);
-    
-//specify what to do when zoom event listener is triggered 
-function zoom_actions(){
-  circles.attr("transform", d3.event.transform);
 }
 
-zoom_handler(svg);
+// Create a drag handler and append it to the node object instead
+var drag_handler = d3.drag()
+.on("start", dragstarted)
+.on("drag", dragged)
+.on("end", dragended);
+
+/**
+ * Zooming option
+ */
+
+//add zoom capabilities 
+var zoom_handler = d3.zoom()
+.on("zoom", zoom_actions);
+
+//Zoom functions 
+function zoom_actions(){
+    g.attr("transform", d3.event.transform)
+}
+
+

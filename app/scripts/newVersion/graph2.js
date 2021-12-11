@@ -51,7 +51,7 @@ function graph(data){
   
   var circles = node.append("circle")
     .attr("r", 5)
-    .attr("fill", function(d) { return color(d.compartment); });
+    .attr("fill", function(d) { return color(d.compartment.name); });
 
   // Create a drag handler and append it to the node object instead
   var drag_handler = d3.drag()

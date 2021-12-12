@@ -28,10 +28,16 @@ class Edge {
 }
 
 class Network {
-    constructor(dataJson){
+    constructor(id, dataJson){
+        this.id = id;
         this.data = dataJson;
-        this.nodes = dataJson.nodes.map( (node , index) => node = new Node(node.id, node.name, dataJson.compartments.find( element => element.id === node.id_compartment)));
-        this.edges = dataJson.edges.map( (edge, index) => edge = new Edge(edge.id, edge.source, edge.target, dataJson.compartments.find( element => element.id === edge.id_compartment)));
+        if (id === 'general'){
+            this.nodes = dataJson.nodes.map( (node , index) => node = new Node(node.id, node.name, dataJson.compartments.find( element => element.id === node.id_compartment)));
+            this.edges = dataJson.edges.map( (edge, index) => edge = new Edge(edge.id, edge.source, edge.target, dataJson.compartments.find( element => element.id === edge.id_compartment)));
+        } else {
+            this.nodes = dataJson.nodes.filter(node => node.id_compartment === id).map( (node , index) => node = new Node(node.id, node.name, dataJson.compartments.find( element => element.id === node.id_compartment)));
+            this.edges = dataJson.edges.filter(edge => edge.id_compartment === id).map( (edge, index) => edge = new Edge(edge.id, edge.source, edge.target, dataJson.compartments.find( element => element.id === edge.id_compartment)));
+        }
     };
 }
 
@@ -40,6 +46,13 @@ const processing = (data) => {
     // TODO  
     console.log(data.compartments.find( element => element.name === 'I'));
     //console.log(obj);
-    let network = new Network(data);
+    
+    let network = new Network('general',data);
+    let listNetworks = {general:network};
+    // create networks by compartment
+    data.compartments.map(comp => {
+        listNetworks[comp.id] = new Network(comp.id, data);  
+    })
+    console.log('allNetworks\n', listNetworks);
     return network;
 }

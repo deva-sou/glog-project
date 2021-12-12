@@ -53,4 +53,3 @@ const creatDropDownList = (data) => {
 // }
 
 drawGraph("scripts/newVersion/protein_translation3.json");
-

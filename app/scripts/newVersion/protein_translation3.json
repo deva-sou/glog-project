@@ -2,482 +2,482 @@
   "nodes": [
     {
       "id": "9683033",
-      "name": "nucleotide-sugar [endoplasmic reticulum lumen]",
+      "name": "nucleotide-sugar ",
       "id_compartment": "compartment_17957"
     },
     {
       "id": "9639443",
-      "name": "S-adenosyl-L-homocysteine [cytosol]",
+      "name": "S-adenosyl-L-homocysteine ",
       "id_compartment": "compartment_70101"
     },
     {
       "id": "9729277",
-      "name": "p-8S,2T-N [cytosol]",
+      "name": "p-8S,2T-N ",
       "id_compartment": "compartment_70101"
     },
     {
       "id": "8943136",
-      "name": "Ub [endoplasmic reticulum membrane]",
+      "name": "Ub ",
       "id_compartment": "compartment_12045"
     },
     {
       "id": "9694781",
-      "name": "O-glycosyl 3a tetramer [endocytic vesicle membrane]",
+      "name": "O-glycosyl 3a tetramer ",
       "id_compartment": "compartment_24337"
     },
     {
       "id": "9697195",
-      "name": "di-antennary N-glycan-PALM-Spike trimer [endoplasmic reticulum-Golgi intermediate compartment]",
+      "name": "di-antennary N-glycan-PALM-Spike trimer ",
       "id_compartment": "compartment_190626"
     },
     {
       "id": "9729324",
-      "name": "p-S188,206-N [cytosol]",
+      "name": "p-S188,206-N ",
       "id_compartment": "compartment_70101"
     },
     {
       "id": "9694716",
-      "name": "3a [endoplasmic reticulum-Golgi intermediate compartment]",
+      "name": "3a ",
       "id_compartment": "compartment_190626"
     },
     {
       "id": "9685933",
-      "name": "Host Derived Lipid Bilayer Membrane [plasma membrane]",
+      "name": "Host Derived Lipid Bilayer Membrane ",
       "id_compartment": "compartment_876"
     },
     {
       "id": "9694456",
-      "name": "m7G(5')pppAm-capped,polyadenylated mRNA5 [cytosol]",
+      "name": "m7GpppAm-capped,polyadenylated mRNA5 ",
       "id_compartment": "compartment_70101"
     },
     {
       "id": "9683078",
-      "name": "UDP [endoplasmic reticulum-Golgi intermediate compartment]",
+      "name": "UDP ",
       "id_compartment": "compartment_190626"
     },
     {
       "id": "9694300",
-      "name": "N [cytosol]",
+      "name": "N ",
       "id_compartment": "compartment_70101"
     },
     {
       "id": "9697197",
-      "name": "fully glycosylated Spike trimer [endoplasmic reticulum-Golgi intermediate compartment]",
+      "name": "fully glycosylated Spike trimer ",
       "id_compartment": "compartment_190626"
     },
     {
       "id": "9729340",
-      "name": "SUMO1-K62-ADPr-p-11S,2T-metR95,177-N [cytosol]",
+      "name": "SUMO1-K62-ADPr-p-11S,2T-metR95,177-N ",
       "id_compartment": "compartment_70101"
     },
     {
       "id": "156540",
-      "name": "H+ [endoplasmic reticulum lumen]",
+      "name": "H+ ",
       "id_compartment": "compartment_17957"
     },
     {
       "id": "975896",
-      "name": "MGAT5 [Golgi membrane]",
+      "name": "MGAT5 ",
       "id_compartment": "compartment_20699"
     },
     {
       "id": "9697194",
-      "name": "tri-antennary N-glycan-PALM-Spike trimer [endoplasmic reticulum-Golgi intermediate compartment]",
+      "name": "tri-antennary N-glycan-PALM-Spike trimer ",
       "id_compartment": "compartment_190626"
     },
     {
       "id": "9694503",
-      "name": "m7G(5')pppAm-capped,polyadenylated mRNA2 [cytosol]",
+      "name": "m7GpppAm-capped,polyadenylated mRNA2 ",
       "id_compartment": "compartment_70101"
     },
     {
       "id": "9694754",
-      "name": "N-glycan E [endoplasmic reticulum lumen]",
+      "name": "N-glycan E ",
       "id_compartment": "compartment_17957"
     },
     {
       "id": "9694464",
-      "name": "N tetramer [plasma membrane]",
+      "name": "N tetramer ",
       "id_compartment": "compartment_876"
     },
     {
       "id": "9694386",
-      "name": "O-glycosyl 3a [endoplasmic reticulum-Golgi intermediate compartment membrane]",
+      "name": "O-glycosyl 3a ",
       "id_compartment": "compartment_6791047"
     },
     {
       "id": "70106",
-      "name": "H+ [cytosol]",
+      "name": "H+ ",
       "id_compartment": "compartment_70101"
     },
     {
       "id": "9686842",
-      "name": "ER-alpha glucosidases:ER-alpha glucosidase inhibitors [endoplasmic reticulum lumen]",
+      "name": "ER-alpha glucosidases:ER-alpha glucosidase inhibitors ",
       "id_compartment": "compartment_17957"
     },
     {
       "id": "29370",
-      "name": "ADP [cytosol]",
+      "name": "ADP ",
       "id_compartment": "compartment_70101"
     },
     {
       "id": "9696892",
-      "name": "Man(9) N-glycan unfolded Spike [endoplasmic reticulum lumen]",
+      "name": "Man N-glycan unfolded Spike ",
       "id_compartment": "compartment_17957"
     },
     {
       "id": "964750",
-      "name": "MGAT1 [endoplasmic reticulum-Golgi intermediate compartment membrane]",
+      "name": "MGAT1 ",
       "id_compartment": "compartment_6791047"
     },
     {
       "id": "9694513",
-      "name": "m7G(5')pppAm-capped,polyadenylated-mRNA9 [cytosol]",
+      "name": "m7GpppAm-capped,polyadenylated-mRNA9 ",
       "id_compartment": "compartment_70101"
     },
     {
       "id": "9729308",
-      "name": "p-11S,2T-metR95,177-N [cytosol]",
+      "name": "p-11S,2T-metR95,177-N ",
       "id_compartment": "compartment_70101"
     },
     {
       "id": "975913",
-      "name": "MGAT4s [Golgi membrane]",
+      "name": "MGAT4s ",
       "id_compartment": "compartment_20699"
     },
     {
       "id": "9699093",
-      "name": "CMP-Neu5Ac [endoplasmic reticulum-Golgi intermediate compartment]",
+      "name": "CMP-Neu5Ac ",
       "id_compartment": "compartment_190626"
     },
     {
       "id": "9694356",
-      "name": "N [plasma membrane]",
+      "name": "N ",
       "id_compartment": "compartment_876"
     },
     {
       "id": "4656922",
-      "name": "SUMO1:C93-UBE2I [cytosol]",
+      "name": "SUMO1:C93-UBE2I ",
       "id_compartment": "compartment_70101"
     },
     {
       "id": "9696875",
-      "name": "high-mannose N-glycan unfolded Spike [endoplasmic reticulum lumen]",
+      "name": "high-mannose N-glycan unfolded Spike ",
       "id_compartment": "compartment_17957"
     },
     {
       "id": "4655342",
-      "name": "UBE2I [cytosol]",
+      "name": "UBE2I ",
       "id_compartment": "compartment_70101"
     },
     {
       "id": "9683736",
-      "name": "palmitoyl-CoA [endoplasmic reticulum lumen]",
+      "name": "palmitoyl-CoA ",
       "id_compartment": "compartment_17957"
     },
     {
       "id": "9694446",
-      "name": "N-glycan M [endoplasmic reticulum-Golgi intermediate compartment membrane]",
+      "name": "N-glycan M ",
       "id_compartment": "compartment_6791047"
     },
     {
       "id": "449651",
-      "name": "(Glc)3 (GlcNAc)2 (Man)9 (PP-Dol)1 [integral component of lumenal side of endoplasmic reticulum membrane]",
+      "name": "3 2 9 1 ",
       "id_compartment": "compartment_453088"
     },
     {
       "id": "162743",
-      "name": "CoA-SH [endoplasmic reticulum lumen]",
+      "name": "CoA-SH ",
       "id_compartment": "compartment_17957"
     },
     {
       "id": "198358",
-      "name": "GSK3 [cytosol]",
+      "name": "GSK3 ",
       "id_compartment": "compartment_70101"
     },
     {
       "id": "9699094",
-      "name": "CMP [endoplasmic reticulum-Golgi intermediate compartment]",
+      "name": "CMP ",
       "id_compartment": "compartment_190626"
     },
     {
       "id": "9694279",
-      "name": "nascent M [endoplasmic reticulum lumen]",
+      "name": "nascent M ",
       "id_compartment": "compartment_17957"
     },
     {
       "id": "9694423",
-      "name": "Ub-3xPalmC-E [endoplasmic reticulum lumen]",
+      "name": "Ub-3xPalmC-E ",
       "id_compartment": "compartment_17957"
     },
     {
       "id": "9683046",
-      "name": "nucleoside 5'-diphosphate(3−) [endoplasmic reticulum lumen]",
+      "name": "nucleoside 5'-diphosphate ",
       "id_compartment": "compartment_17957"
     },
     {
       "id": "9694305",
-      "name": "3xPalmC-E [endoplasmic reticulum lumen]",
+      "name": "3xPalmC-E ",
       "id_compartment": "compartment_17957"
     },
     {
       "id": "9694796",
-      "name": "nascent Spike [endoplasmic reticulum lumen]",
+      "name": "nascent Spike ",
       "id_compartment": "compartment_17957"
     },
     {
       "id": "9696917",
-      "name": "high-mannose N-glycan-PALM-Spike [endoplasmic reticulum lumen]",
+      "name": "high-mannose N-glycan-PALM-Spike ",
       "id_compartment": "compartment_17957"
     },
     {
       "id": "9694475",
-      "name": "3a:membranous structure [extracellular region]",
+      "name": "3a:membranous structure ",
       "id_compartment": "compartment_984"
     },
     {
       "id": "9694702",
-      "name": "N tetramer [cytosol]",
+      "name": "N tetramer ",
       "id_compartment": "compartment_70101"
     },
     {
       "id": "6782581",
-      "name": "MAN1B1,EDEM2 [endoplasmic reticulum quality control compartment]",
+      "name": "MAN1B1,EDEM2 ",
       "id_compartment": "compartment_927893"
     },
     {
       "id": "532516",
-      "name": "OST complex [endoplasmic reticulum membrane]",
+      "name": "OST complex ",
       "id_compartment": "compartment_12045"
     },
     {
       "id": "9694439",
-      "name": "M [endoplasmic reticulum-Golgi intermediate compartment membrane]",
+      "name": "M ",
       "id_compartment": "compartment_6791047"
     },
     {
       "id": "1028782",
-      "name": "FUT8 [Golgi membrane]",
+      "name": "FUT8 ",
       "id_compartment": "compartment_20699"
     },
     {
       "id": "9682906",
-      "name": "GALNT1 [endoplasmic reticulum-Golgi intermediate compartment membrane]",
+      "name": "GALNT1 ",
       "id_compartment": "compartment_6791047"
     },
     {
       "id": "9683087",
-      "name": "beta-D-glucose [endoplasmic reticulum lumen]",
+      "name": "beta-D-glucose ",
       "id_compartment": "compartment_17957"
     },
     {
       "id": "9683025",
-      "name": "UDP-GalNAc [endoplasmic reticulum-Golgi intermediate compartment]",
+      "name": "UDP-GalNAc ",
       "id_compartment": "compartment_190626"
     },
     {
       "id": "29360",
-      "name": "NAD+ [cytosol]",
+      "name": "NAD+ ",
       "id_compartment": "compartment_70101"
     },
     {
       "id": "195263",
-      "name": "CSNK1A1 [cytosol]",
+      "name": "CSNK1A1 ",
       "id_compartment": "compartment_70101"
     },
     {
       "id": "113592",
-      "name": "ATP [cytosol]",
+      "name": "ATP ",
       "id_compartment": "compartment_70101"
     },
     {
       "id": "9694312",
-      "name": "nascent E [endoplasmic reticulum lumen]",
+      "name": "nascent E ",
       "id_compartment": "compartment_17957"
     },
     {
       "id": "9694325",
-      "name": "m7G(5')pppAm-capped,polyadenylated mRNA3 [cytosol]",
+      "name": "m7GpppAm-capped,polyadenylated mRNA3 ",
       "id_compartment": "compartment_70101"
     },
     {
       "id": "9694658",
-      "name": "GalNAc-O-3a [endoplasmic reticulum-Golgi intermediate compartment]",
+      "name": "GalNAc-O-3a ",
       "id_compartment": "compartment_190626"
     },
     {
       "id": "9729335",
-      "name": "p-8S-N [cytosol]",
+      "name": "p-8S-N ",
       "id_compartment": "compartment_70101"
     },
     {
       "id": "9683042",
-      "name": "sialyltransferases [Golgi membrane]",
+      "name": "sialyltransferases ",
       "id_compartment": "compartment_20699"
     },
     {
       "id": "9694622",
-      "name": "m7G(5')pppAm-capped,polyadenylated mRNA4 [cytosol]",
+      "name": "m7GpppAm-capped,polyadenylated mRNA4 ",
       "id_compartment": "compartment_70101"
     },
     {
       "id": "9729275",
-      "name": "ADPr-p-11S,2T-metR95,177-N [cytosol]",
+      "name": "ADPr-p-11S,2T-metR95,177-N ",
       "id_compartment": "compartment_70101"
     },
     {
       "id": "9686811",
-      "name": "ER-alpha-glucosidase inhibitors [endoplasmic reticulum lumen]",
+      "name": "ER-alpha-glucosidase inhibitors ",
       "id_compartment": "compartment_17957"
     },
     {
       "id": "9632173",
-      "name": "PRMT1 [cytosol]",
+      "name": "PRMT1 ",
       "id_compartment": "compartment_70101"
     },
     {
       "id": "9696883",
-      "name": "high-mannose N-glycan-PALM-Spike trimer [endoplasmic reticulum lumen]",
+      "name": "high-mannose N-glycan-PALM-Spike trimer ",
       "id_compartment": "compartment_17957"
     },
     {
       "id": "2997551",
-      "name": "GSK3B [cytosol]",
+      "name": "GSK3B ",
       "id_compartment": "compartment_70101"
     },
     {
       "id": "197277",
-      "name": "NAM [cytosol]",
+      "name": "NAM ",
       "id_compartment": "compartment_70101"
     },
     {
       "id": "9694598",
-      "name": "O-glycosyl 3a tetramer [endoplasmic reticulum-Golgi intermediate compartment membrane]",
+      "name": "O-glycosyl 3a tetramer ",
       "id_compartment": "compartment_6791047"
     },
     {
       "id": "9683057",
-      "name": "H+ [endoplasmic reticulum-Golgi intermediate compartment]",
+      "name": "H+ ",
       "id_compartment": "compartment_190626"
     },
     {
       "id": "8938273",
-      "name": "PARPs [cytosol]",
+      "name": "PARPs ",
       "id_compartment": "compartment_70101"
     },
     {
       "id": "9694408",
-      "name": "Ub-3xPalmC-E pentamer [Golgi membrane]",
+      "name": "Ub-3xPalmC-E pentamer ",
       "id_compartment": "compartment_20699"
     },
     {
       "id": "9682983",
-      "name": "ER alpha-glucosidases [endoplasmic reticulum lumen]",
+      "name": "ER alpha-glucosidases ",
       "id_compartment": "compartment_17957"
     },
     {
       "id": "9687663",
-      "name": "GSK3B:GSKi [cytosol]",
+      "name": "GSK3B:GSKi ",
       "id_compartment": "compartment_70101"
     },
     {
       "id": "532676",
-      "name": "MOGS [endoplasmic reticulum membrane]",
+      "name": "MOGS ",
       "id_compartment": "compartment_12045"
     },
     {
       "id": "113519",
-      "name": "H2O [endoplasmic reticulum lumen]",
+      "name": "H2O ",
       "id_compartment": "compartment_17957"
     },
     {
       "id": "975830",
-      "name": "MGAT2 [Golgi membrane]",
+      "name": "MGAT2 ",
       "id_compartment": "compartment_20699"
     },
     {
       "id": "9696901",
-      "name": "high-mannose N-glycan-PALM-Spike trimer [endoplasmic reticulum-Golgi intermediate compartment]",
+      "name": "high-mannose N-glycan-PALM-Spike trimer ",
       "id_compartment": "compartment_190626"
     },
     {
       "id": "9694433",
-      "name": "O-glycosyl 3a [plasma membrane]",
+      "name": "O-glycosyl 3a ",
       "id_compartment": "compartment_876"
     },
     {
       "id": "449311",
-      "name": "DOLP [integral component of lumenal side of endoplasmic reticulum membrane]",
+      "name": "DOLP ",
       "id_compartment": "compartment_453088"
     },
     {
       "id": "9694573",
-      "name": "N tetramer [endoplasmic reticulum-Golgi intermediate compartment membrane]",
+      "name": "N tetramer ",
       "id_compartment": "compartment_6791047"
     },
     {
       "id": "9694459",
-      "name": "14-sugar N-glycan unfolded Spike [endoplasmic reticulum lumen]",
+      "name": "14-sugar N-glycan unfolded Spike ",
       "id_compartment": "compartment_17957"
     },
     {
       "id": "9694584",
-      "name": "3a [endoplasmic reticulum lumen]",
+      "name": "3a ",
       "id_compartment": "compartment_17957"
     },
     {
       "id": "195906",
-      "name": "CANX [endoplasmic reticulum lumen]",
+      "name": "CANX ",
       "id_compartment": "compartment_17957"
     },
     {
       "id": "9694306",
-      "name": "O-glycosyl 3a tetramer [plasma membrane]",
+      "name": "O-glycosyl 3a tetramer ",
       "id_compartment": "compartment_876"
     },
     {
       "id": "9694787",
-      "name": "Ub-3xPalmC-E pentamer [endoplasmic reticulum membrane]",
+      "name": "Ub-3xPalmC-E pentamer ",
       "id_compartment": "compartment_12045"
     },
     {
       "id": "9694659",
-      "name": "N tetramer [nucleolus]",
+      "name": "N tetramer ",
       "id_compartment": "compartment_350"
     },
     {
       "id": "9729312",
-      "name": "SRPK1/2 [cytosol]",
+      "name": "SRPK1/2 ",
       "id_compartment": "compartment_70101"
     },
     {
       "id": "9639461",
-      "name": "S-adenosyl-L-methionine [cytosol]",
+      "name": "S-adenosyl-L-methionine ",
       "id_compartment": "compartment_70101"
     },
     {
       "id": "9694684",
-      "name": "N-glycan M [endoplasmic reticulum membrane]",
+      "name": "N-glycan M ",
       "id_compartment": "compartment_12045"
     },
     {
       "id": "975823",
-      "name": "MAN2A1 [Golgi membrane]",
+      "name": "MAN2A1 ",
       "id_compartment": "compartment_20699"
     },
     {
       "id": "9696880",
-      "name": "high-mannose N-glycan folded Spike [endoplasmic reticulum lumen]",
+      "name": "high-mannose N-glycan folded Spike ",
       "id_compartment": "compartment_17957"
     },
     {
       "id": "9729264",
-      "name": "p-11S,2T-N [cytosol]",
+      "name": "p-11S,2T-N ",
       "id_compartment": "compartment_70101"
     },
     {
       "id": "9687688",
-      "name": "GSKi [cytosol]",
+      "name": "GSKi ",
       "id_compartment": "compartment_70101"
     }
   ],

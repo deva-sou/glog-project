@@ -9,7 +9,6 @@
 /**
  * svg set up   
 */ 
-
 var svg = d3.select("svg"),
     width = +svg.attr("width"),
     height = +svg.attr("height");
@@ -148,55 +147,8 @@ var zoom_handler = d3.zoom()
 function zoom_actions(){
     g.attr("transform", d3.event.transform)
 }
-
-// Save function
-// function downloadSVG() {
-//     const svg = document.getElementById('container').innerHTML;
-//     const blob = new Blob([svg.toString()]);
-//     const element = document.createElement("a");
-//     element.download = "w3c.svg";
-//     element.href = window.URL.createObjectURL(blob);
-//     element.click();
-//     element.remove();
-//     console.log("downloaded");
-    
-// }
-// function download(){
-//     document.getElementById("download").addEventListener("click", function() {
-//         var svgSaver = new SvgSaver(window);
-//         svgSaver.saveSvgAsPng(document.getElementById("network"), "network.png");
-
-//        });
-// }
-
-// const { createCanvas, Image } = require("canvas");
-// const jsdom = require("jsdom");
-// const { JSDOM } = jsdom;
- 
-// const { window } = new JSDOM(`
-//     <html>
-//         <!-- So you can use local resources -->
-//         <link rel="stylesheet" href="file://bootstrap.min.css">
-//         <body></body>
-//     </html>`, {
-//     resources: "usable"
-// });
- 
-// var backup = window.document.createElement;
-// window.document.createElement = function (el) {
-//     if (el === "canvas") {
-//         return createCanvas(500, 500);
-//     } else {
-//         return backup.bind(window.document)(el);
-//     }
-// }
-// window.Image = Image;
-
-// const SvgSaver = require("svg-saver-node");
-// const svgSaver = new SvgSaver(window);
- 
-// svgSaver.svgAsDataUri(window.document.getElementById("diagram"), {}, function(uri) {
-// });
-var svgSaver = new SvgSaver(window);
-svgSaver.svgAsPngUri(document.getElementById("diagram"), {}, function(uri) {});
-
+//Save function
+function svgToPng() {
+    //  saveSvgAsPng 
+    saveSvgAsPng(d3.select('svg').node(), 'network.png');
+  }

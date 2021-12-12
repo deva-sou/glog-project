@@ -1,7 +1,38 @@
-#navbar{
+/* #navbar{
     display: flex;
     flex-direction: column;
+    align-items: left;
+    background-color: black;
+    color: white;
+} */
+/* NAVBAR STYLING STARTS */
+.navbar {
+    display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding: 3px;
+    background-color: #FEF8E6;
+    color: #fff;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding-top: 16px;
+   }
+.nav-links a {
+    color: #fff;
+}
+/* LOGO */
+.logo {
+    width: 11em;
+    height: 3em;
+}
+
+
+#menubar{
+    margin: 10px;
+}
+#saveBtn{
+    align-items: right;
 }
 
 .links line {
@@ -41,15 +72,16 @@ svg .rect {
 }
 
 body {
-    background-color:grey;
+    background-color:white;
 }
-svg {
+#network {
     display: flex;
     flex-direction: column;
     align-items: center;
     border-color: black; 
-    border-width: 15px;
-    background-color: beige;
+    border-width: 3px;
+    background-color: white;
+    border-style: solid;
 }
 
 .line {
@@ -57,4 +89,4 @@ svg {
     stroke-width: 3px;
     stroke-linejoin: round;
     stroke-linecap: round;
-  }
+}

@@ -36,44 +36,14 @@ class Network {
             this.edges = dataJson.edges.map( (edge, index) => edge = new Edge(edge.id, edge.source, edge.target, dataJson.compartments.find( element => element.id === edge.id_compartment)));
         } else {
             this.nodes = dataJson.nodes.filter(node => node.id_compartment === id).map( (node , index) => node = new Node(node.id, node.name, dataJson.compartments.find( element => element.id === node.id_compartment)));
-            //this.edges = dataJson.edges.filter(edge => edge.id_compartment === id && dataJson.nodes.filter( node => node.id === edge.target).id_compartment === id && dataJson.nodes.filter( node => node.id === edge.source).id_compartment === id).map( (edge, index) => edge = new Edge(edge.id, edge.source, edge.target, id));
+            let nodeComp = dataJson.nodes.filter( node => node.id_compartment === id).map( node => node.id); // list of node's id in selected compartment
             this.edges = dataJson.edges.filter( edge => edge.id_compartment === id)
-                .filter( edge => dataJson.nodes.filter(node => node.id === edge.source).id_compartment == id)
-                .filter( edge => dataJson.nodes.filter(node => node.id === edge.target).id_compartment == id)
+                .filter( edge => nodeComp.includes(edge.source) && nodeComp.includes(edge.target)) // remove edges where target is outside compartment -- else it break the graph
                 .map( edge => edge = new Edge(edge.id, edge.source, edge.target, edge.id_compartment));
-
         }
     };
 }
 
 const processing = (id, data) => {
-    // Create the network object with data from JSON
-    // TODO  
-    //console.log(data.compartments.find( element => element.name === 'I'));
-    //console.log(obj);
-    
-    // let network = new Network('general',data);
-    // let listNetworks = {general:network};
-    // // create networks by compartment
-    // data.compartments.map(comp => {
-    //     listNetworks[comp.id] = new Network(comp.id, data);  
-    // })
-    //console.log('allNetworks\n', listNetworks);
     return new Network(id, data);
 }
-
-// const processing = (data) => {
-//     // Create the network object with data from JSON
-//     // TODO  
-//     //console.log(data.compartments.find( element => element.name === 'I'));
-//     //console.log(obj);
-    
-//     let network = new Network('general',data);
-//     let listNetworks = {general:network};
-//     // create networks by compartment
-//     data.compartments.map(comp => {
-//         listNetworks[comp.id] = new Network(comp.id, data);  
-//     })
-//     //console.log('allNetworks\n', listNetworks);
-//     return listNetworks;
-// }

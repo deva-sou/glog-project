@@ -18,24 +18,17 @@ var svg = d3.select("svg"),
  */
  var color = d3.scaleOrdinal(d3.schemeCategory20);
 
- //var legend = d3.legend
-
 /*
  * define simulation forces 
 */
 
 var simulation = d3.forceSimulation()
-  .force("x",d3.forceX(width/2).strength(0.05))
-  .force("y",d3.forceY(width/2).strength(0.05))
+  .force("x",d3.forceX(width/2).strength(0.04))
+  .force("y",d3.forceY(width/2).strength(0.04))
   .force("link", d3.forceLink().id(function(d) { return d.id; }))
-  .force("charge", d3.forceManyBody().strength(-70))
+  .force("charge", d3.forceManyBody().strength(-150))
   .force("center", d3.forceCenter(width / 2, height / 2))
-  .force("collide",d3.forceCollide().radius(d => d.r * 5));
-
-// var simulation = d3.forceSimulation()
-//   .force("link", d3.forceLink().id(function(d) { return d.id; }))
-//   .force("charge", d3.forceManyBody()) 
-//   .force("center", d3.forceCenter(width / 2, height / 2))
+  .force("collide",d3.forceCollide().radius(d => d.r * 2));
 
 /**
  * drawing function   
@@ -46,17 +39,16 @@ var g = svg.append("g")
 
 function graph(id, dataJson){
 
-  let data = processing(id, dataJson);
-  //let data = dataNetworks['general']; // default network
+  let data = processing(id, dataJson); // id = compartment's id selected
 
-  // Edges
+  // ### Edges
   var link = g.append("g")
       .attr("class", "links")
     .selectAll("line")
     .data(data.edges)
     .enter().append("line")
       .attr("stroke-width", function(d) { return Math.sqrt(3); });
-  // Nodes
+  // ### Nodes
   var node = g.append("g")
       .attr("class", "nodes")
     .selectAll("g")
@@ -67,20 +59,13 @@ function graph(id, dataJson){
     .attr("r", 5)
     .attr("fill", function(d) { return color(d.compartment.name); });
 
-//     // Create a drag handler and append it to the node object instead
-//   var drag_handler = d3.drag()
-//     .on("start", dragstarted)
-//     .on("drag", dragged)
-//     .on("end", dragended);
+  // ### Interactive function with svg 
+  // # dragability
+  drag_handler(node);
+  // # zoomability
+  zoom_handler(svg); 
 
-    drag_handler(node);
-
-    // //add zoom capabilities 
-    // var zoom_handler = d3.zoom()
-    // .on("zoom", zoom_actions);
-
-    zoom_handler(svg); 
-
+  // ### Node's labels
   var lables = node.append("text")
       .text(function(d) {
         return d.name;
@@ -91,6 +76,7 @@ function graph(id, dataJson){
   node.append("title")
       .text(function(d) { return d.name; });
 
+  // ### Complet simulation forces
   simulation
     .nodes(data.nodes)
     .on("tick", ticked);
@@ -115,7 +101,7 @@ function graph(id, dataJson){
 }
 
 /**
- * Drag option 
+ * Drag option functions  
 */
 
 function dragstarted(d) {
@@ -142,7 +128,7 @@ var drag_handler = d3.drag()
 .on("end", dragended);
 
 /**
- * Zooming option
+ * Zoom option functions
 */
 
 //add zoom capabilities 
@@ -164,44 +150,6 @@ function restart (selectedComp, dataJson) {
   g.append("g").attr("class", "everything");
   simulation.alpha(0.5).restart();
   graph(selectedComp, dataJson);
-
-  // console.log("ok");
-  // console.log(selectedComp);
-  // let dataFiltred = processing(selectedComp,dataJson);
-  // //let dataFiltred = data[selectedComp];
-  // console.log("dataFiltred\n", dataFiltred)
-  // console.log("g", g);
-  // // Apply update to nodes 
-  // var node = g.select("g").select("everything").select("nodes");
-  // console.log(node);
-  // //node.remove();
-
-  //   .data(dataFiltred.nodes)
-  //   .exit().remove()
-  //   .enter().append("g")
-  //   .append("circle")
-  //   .attr("r", 5)
-  //   .attr("fill", function(d) { return color(d.compartment.name); })
-  //   .append("text")
-  //     .text(function(d) {
-  //       return d.name;
-  //     })
-  //     .attr('x', 6)
-  //     .attr('y', 3)
-  //   .append("title")
-  //     .text(function(d) { return d.name; });
-  // // Apply update to links
-  // var link = g.selectAll("links")
-  //   .data(dataFiltred.links)
-  //   .exit().remove()
-  //   .enter().append("line")
-  //     .attr("stroke-width", function(d) { return Math.sqrt(3); });
-  // // update and restart simulation 
-  // simulation
-  //   .nodes(dataFiltred.nodes)
-  //   .on("tick", ticked)
-  //   .force("link")
-  //     .links(data.edges);
 }
 
 

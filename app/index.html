@@ -11,7 +11,8 @@
 <body>
     <script src="https://d3js.org/d3.v4.min.js"></script>
     <div id="navbar">
-    <h1>Network with D3</h1>
+      <h1>Network with D3</h1>
+      <button onclick="svgToPng()">Save Network</button>    
     </div>
     <div id="menubar">
         <label for="pet-select">Select compartment</label>
@@ -19,9 +20,11 @@
             <option value="general">Global Network</option>
         </select>
     </div>
-    <svg width="1200" height="700"></svg>
+    <svg id="network" width="1200" height="700"></svg>
     <script src="scripts/newVersion/dataProcessing.js"></script>
     <script src="scripts/newVersion/graph3.js"></script>
     <script src="scripts/newVersion/main.js"></script>
+    <script src="scripts/newVersion/saver.js"></script>
+
 </body>
 </html>

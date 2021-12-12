@@ -9,7 +9,6 @@
 /**
  * svg set up   
 */ 
-
 var svg = d3.select("svg"),
     width = +svg.attr("width"),
     height = +svg.attr("height");
@@ -105,6 +104,8 @@ function graph(data){
         return "translate(" + d.x + "," + d.y + ")";
       })
   }
+  
+  
 }
 
 /**
@@ -146,5 +147,8 @@ var zoom_handler = d3.zoom()
 function zoom_actions(){
     g.attr("transform", d3.event.transform)
 }
-
-
+//Save function
+function svgToPng() {
+    //  saveSvgAsPng 
+    saveSvgAsPng(d3.select('svg').node(), 'network.png');
+  }

@@ -5,7 +5,7 @@
 }
 
 .links line {
-    stroke: #999;
+    stroke: rgb(5, 5, 5);
     stroke-opacity: 0.6;
 }
 
@@ -41,7 +41,7 @@ svg .rect {
 }
 
 body {
-    background-color:grey
+    background-color:grey;
 }
 svg {
     display: flex;
@@ -51,3 +51,10 @@ svg {
     border-width: 15px;
     background-color: beige;
 }
+
+.line {
+    fill: none;
+    stroke-width: 3px;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+  }

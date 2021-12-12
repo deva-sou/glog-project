@@ -10,8 +10,8 @@
  * svg set up   
 */ 
 var svg = d3.select("svg"),
-    width = +svg.attr("width"),
-    height = +svg.attr("height");
+    width = 0.7*window.innerWidth;
+    height = 0.7*window.innerHeight;
 
 /**
  * Color
